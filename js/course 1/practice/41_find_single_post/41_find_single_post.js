@@ -6,6 +6,5 @@ const postJSON =[
 ]
 
 const json = postJSON.map(JSON.parse) 
-console.log(json)
 
-console.log(json[1].postId)
+console.log(json.find((element)=>element.postId === 1355))
