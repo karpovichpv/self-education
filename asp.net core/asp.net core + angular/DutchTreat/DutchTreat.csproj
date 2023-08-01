@@ -8,9 +8,5 @@
     <None Include="wwwroot\index.html" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\css\" />
-  </ItemGroup>
-
 
 </Project>
