@@ -2,10 +2,11 @@
 <html>
 <head>
   <title>Dutch Treat: @ViewBag.Title</title>
+  <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
   <link href="~/css/site.css" rel="stylesheet" />
 </head>
 <body>
-  <header>
+  <header class="container-fluid">
   <h1>Welcome to Dutch Treat</h1>
   <menu>
     <ul>
@@ -15,13 +16,16 @@
     </ul>
   </menu>
   </header>
-  <section>
+  <section class="container">
     <h2>@ViewBag.Title</h2>
-  </section>
   @RenderBody()
-  <footer>Copyright 2020 Dutch Treat LLC</footer>
+  </section>
+  <footer class="text-center">
+      <div>Copyright 2020 Dutch Treat LLC</div>
+      </footer>
 
   <script src="~/lib/jquery/dist/jquery.min.js"></script>
+  <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
   <script src="~/js/index.js"></script>
   @RenderSection("scripts", false)
 </body>
