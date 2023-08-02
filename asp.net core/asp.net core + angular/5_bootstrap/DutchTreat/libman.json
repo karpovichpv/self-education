@@ -29,6 +29,10 @@
         "dist/jquery.validate.unobtrusive.js",
         "dist/jquery.validate.unobtrusive.min.js"
       ]
+    },
+    {
+      "library": "bootstrap@5.3.1",
+      "destination": "wwwroot/lib/bootstrap/"
     }
   ]
 }
