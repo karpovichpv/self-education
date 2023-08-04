@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\other\\SelfEducation\\asp.net core\\asp.net core + angular\\6_ef\\DutchTreat\\DutchTreat.csproj": {}
+    "D:\\Self-education\\asp.net core\\asp.net core + angular\\6_ef\\DutchTreat\\DutchTreat.csproj": {}
   },
   "projects": {
-    "C:\\other\\SelfEducation\\asp.net core\\asp.net core + angular\\6_ef\\DutchTreat\\DutchTreat.csproj": {
+    "D:\\Self-education\\asp.net core\\asp.net core + angular\\6_ef\\DutchTreat\\DutchTreat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\other\\SelfEducation\\asp.net core\\asp.net core + angular\\6_ef\\DutchTreat\\DutchTreat.csproj",
+        "projectUniqueName": "D:\\Self-education\\asp.net core\\asp.net core + angular\\6_ef\\DutchTreat\\DutchTreat.csproj",
         "projectName": "DutchTreat",
-        "projectPath": "C:\\other\\SelfEducation\\asp.net core\\asp.net core + angular\\6_ef\\DutchTreat\\DutchTreat.csproj",
+        "projectPath": "D:\\Self-education\\asp.net core\\asp.net core + angular\\6_ef\\DutchTreat\\DutchTreat.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\other\\SelfEducation\\asp.net core\\asp.net core + angular\\6_ef\\DutchTreat\\obj\\",
+        "outputPath": "D:\\Self-education\\asp.net core\\asp.net core + angular\\6_ef\\DutchTreat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,6 +53,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -67,12 +70,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -81,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
