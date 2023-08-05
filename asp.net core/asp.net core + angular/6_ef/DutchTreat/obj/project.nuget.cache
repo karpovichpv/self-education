@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G9D0jmmxa/lO1hSnZfdBlB4IX3iACV07pCaSDLFTmC6sNolSOloY/IObDLWV1Dm5m/Le9WzmOp6FCkjj5zaUGg==",
+  "dgSpecHash": "S6QKQzBPu1XUT62paTRWTWpKO7Yh93xleehKpEcdxAy+DF4YLWkYi25AoCyCnhXeMiNq80q1mgDD84Kv2FwXQw==",
   "success": true,
-  "projectFilePath": "D:\\Self-education\\asp.net core\\asp.net core + angular\\6_ef\\DutchTreat\\DutchTreat.csproj",
+  "projectFilePath": "C:\\other\\SelfEducation\\asp.net core\\asp.net core + angular\\6_ef\\DutchTreat\\DutchTreat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
@@ -129,7 +129,8 @@
     "C:\\Users\\user\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

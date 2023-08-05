@@ -15,6 +15,8 @@ namespace DutchTreat
 
             services.AddTransient<DutchSeeder>();
 
+            services.AddScoped<IDutchRepository, DutchRepository>();
+
             services.AddTransient<IMailService, NullMailService>();
 
             services.AddControllersWithViews()

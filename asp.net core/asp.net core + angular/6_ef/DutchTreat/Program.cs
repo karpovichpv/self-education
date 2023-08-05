@@ -15,7 +15,7 @@ namespace DutchTreat
             IHost host = BuildWebHost(args);
 
             //if (args.Length == 1 && args[0].ToLower() == "/seed")
-            //   RunSeeding(host);
+            //    RunSeeding(host);
             //else
             host.Run();
         }
@@ -44,7 +44,7 @@ namespace DutchTreat
             builder.Sources.Clear();
 
             builder.SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("config.json", false, true)
+                .AddJsonFile("config_home.json", false, true)
                 .AddEnvironmentVariables();
         }
     }
