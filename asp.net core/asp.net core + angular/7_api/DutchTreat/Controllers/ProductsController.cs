@@ -8,21 +8,32 @@ namespace DutchTreat.Controllers
 {
     [Route("api/[Controller]")]
     [ApiController]
-    public class ProductsController : Controller
+    [Produces("application/json")]
+    public class ProductsController : ControllerBase
     {
-        private readonly DutchRepository _repository;
+        private readonly IDutchRepository _repository;
         private readonly ILogger<ProductsController> _logger;
 
-        public ProductsController(DutchRepository repository, ILogger<ProductsController> logger)
+        public ProductsController(IDutchRepository repository, ILogger<ProductsController> logger)
         {
             _repository = repository;
             _logger = logger;
         }
 
         [HttpGet]
-        public IEnumerable<Product> Get()
+        [ProducesResponseType(200)]
+        [ProducesResponseType(400)]
+        public ActionResult<IEnumerable<Product>> Get()
         {
-            return _repository.GetAllProducts();
+            try
+            {
+                return Ok(_repository.GetAllProducts());
+            }
+            catch
+            {
+                _logger.LogError("Failed to get products");
+                return BadRequest("Failed to get products");
+            }
         }
     }
 }
