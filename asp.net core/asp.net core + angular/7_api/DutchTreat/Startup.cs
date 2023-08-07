@@ -20,7 +20,9 @@ namespace DutchTreat
             services.AddTransient<IMailService, NullMailService>();
 
             services.AddControllersWithViews()
-              .AddRazorRuntimeCompilation();
+              .AddRazorRuntimeCompilation()
+              .AddNewtonsoftJson(config
+              => config.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddRazorPages();
         }
 

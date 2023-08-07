@@ -2041,3 +2041,6 @@ C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\obj\
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\obj\Debug\net5.0\DutchTreat.pdb
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\obj\Debug\net5.0\DutchTreat.genruntimeconfig.cache
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\obj\Debug\net5.0\ref\DutchTreat.dll
+C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
