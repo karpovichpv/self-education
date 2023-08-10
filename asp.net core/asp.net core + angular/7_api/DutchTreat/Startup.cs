@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Reflection;
 
 namespace DutchTreat
 {
@@ -12,6 +13,8 @@ namespace DutchTreat
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DutchContext>();
+
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
             services.AddTransient<DutchSeeder>();
 
