@@ -23,12 +23,19 @@ namespace DutchTreat.Data
             _context.Add(order);
         }
 
-        public IEnumerable<Order> GetAllOrders()
-            => _context
-            .Orders
-            .Include(o => o.Items)
-            .ThenInclude(i => i.Product)
-            .ToList();
+        public IEnumerable<Order> GetAllOrders(bool includeItems)
+        {
+            if (includeItems)
+                return _context
+                        .Orders
+                        .Include(o => o.Items)
+                        .ThenInclude(i => i.Product)
+                        .ToList();
+
+            return _context
+                    .Orders
+                    .ToList();
+        }
 
         public IEnumerable<Product> GetAllProducts()
         {
@@ -47,7 +54,7 @@ namespace DutchTreat.Data
         }
 
         public Order GetOrderById(int id)
-            => GetAllOrders()
+            => GetAllOrders(true)
             .Where(o => o.Id == id)
             .FirstOrDefault();
 

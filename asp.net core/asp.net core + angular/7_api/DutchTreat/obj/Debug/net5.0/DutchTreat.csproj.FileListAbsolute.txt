@@ -1703,7 +1703,6 @@ C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -1729,8 +1728,6 @@ C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -1829,7 +1826,6 @@ C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\System.Runtime.dll
 C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -2488,3 +2484,9 @@ D:\Self-education\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug
 D:\Self-education\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 D:\Self-education\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\Self-education\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\AutoMapper.dll
+C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\other\SelfEducation\asp.net core\asp.net core + angular\7_api\DutchTreat\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
