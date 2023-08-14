@@ -6,7 +6,7 @@ using System;
 
 namespace DutchTreat.Data
 {
-    public class DutchContext : IdentityDbContext
+    public class DutchContext : IdentityDbContext<StoreUser>
     {
         private readonly IConfiguration _configuration;
 
