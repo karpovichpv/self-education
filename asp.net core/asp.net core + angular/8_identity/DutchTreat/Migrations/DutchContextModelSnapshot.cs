@@ -45,7 +45,7 @@ namespace DutchTreat.Migrations
                         new
                         {
                             Id = 1,
-                            OrderDate = new DateTime(2023, 8, 13, 19, 30, 24, 632, DateTimeKind.Utc).AddTicks(112),
+                            OrderDate = new DateTime(2023, 8, 14, 6, 49, 1, 156, DateTimeKind.Utc).AddTicks(9916),
                             OrderNumber = "12345"
                         });
                 });
@@ -334,6 +334,8 @@ namespace DutchTreat.Migrations
 
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
+
+                    b.ToTable("AspNetUsers");
 
                     b.HasDiscriminator().HasValue("StoreUser");
                 });
