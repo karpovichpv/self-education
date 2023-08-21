@@ -54,6 +54,9 @@ namespace DutchTreat
 
             app.UseRouting();
 
+            app.UseAuthentication();
+            app.UseAuthorization();
+
             app.UseEndpoints(cfg =>
             {
                 cfg.MapControllerRoute("Fallback",
