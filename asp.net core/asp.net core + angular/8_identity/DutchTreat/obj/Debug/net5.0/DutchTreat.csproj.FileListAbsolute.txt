@@ -3381,3 +3381,4 @@ D:\Self-education\asp.net core\asp.net core + angular\8_identity\DutchTreat\obj\
 D:\Self-education\asp.net core\asp.net core + angular\8_identity\DutchTreat\obj\Debug\net5.0\DutchTreat.genruntimeconfig.cache
 D:\Self-education\asp.net core\asp.net core + angular\8_identity\DutchTreat\obj\Debug\net5.0\ref\DutchTreat.dll
 D:\Self-education\asp.net core\asp.net core + angular\8_identity\DutchTreat\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+D:\Self-education\asp.net core\asp.net core + angular\8_identity\DutchTreat\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

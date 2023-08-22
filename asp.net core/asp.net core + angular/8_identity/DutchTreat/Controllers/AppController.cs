@@ -8,6 +8,7 @@ using System.Collections.Generic;
 
 namespace DutchTreat.Controllers
 {
+    [Authorize]
     public class AppController : Controller
     {
         private readonly IMailService _mailService;
