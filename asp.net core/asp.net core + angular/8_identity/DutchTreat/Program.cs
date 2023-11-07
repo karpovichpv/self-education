@@ -15,7 +15,7 @@ namespace DutchTreat
             IHost host = BuildWebHost(args);
 
             //if (args.Length == 1 && args[0].ToLower() == "/seed")
-            RunSeeding(host);
+            //   RunSeeding(host);
             //else
             host.Run();
         }
