@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\other\\SelfEducation\\asp.net core\\asp.net core + angular\\8_identity\\DutchTreat\\DutchTreat.csproj": {}
+    "D:\\Self-education\\asp.net core\\asp.net core + angular\\8_identity\\DutchTreat\\DutchTreat.csproj": {}
   },
   "projects": {
-    "C:\\other\\SelfEducation\\asp.net core\\asp.net core + angular\\8_identity\\DutchTreat\\DutchTreat.csproj": {
+    "D:\\Self-education\\asp.net core\\asp.net core + angular\\8_identity\\DutchTreat\\DutchTreat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\other\\SelfEducation\\asp.net core\\asp.net core + angular\\8_identity\\DutchTreat\\DutchTreat.csproj",
+        "projectUniqueName": "D:\\Self-education\\asp.net core\\asp.net core + angular\\8_identity\\DutchTreat\\DutchTreat.csproj",
         "projectName": "DutchTreat",
-        "projectPath": "C:\\other\\SelfEducation\\asp.net core\\asp.net core + angular\\8_identity\\DutchTreat\\DutchTreat.csproj",
+        "projectPath": "D:\\Self-education\\asp.net core\\asp.net core + angular\\8_identity\\DutchTreat\\DutchTreat.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\other\\SelfEducation\\asp.net core\\asp.net core + angular\\8_identity\\DutchTreat\\obj\\",
+        "outputPath": "D:\\Self-education\\asp.net core\\asp.net core + angular\\8_identity\\DutchTreat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +44,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -83,12 +87,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -97,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
