@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WmiGetHardwareID", "WmiGetHardwareID.csproj", "{EC084FEE-18DE-45FA-827A-8832B6BD1611}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WmiGetHardwareID", "WmiGetHardwareID.csproj", "{EC084FEE-18DE-45FA-827A-8832B6BD1611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WmiInstalledApps", "..\WmiInstalledApps\WmiInstalledApps.csproj", "{5108392E-52FD-4A50-9D50-26711E19B323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WmiInstalledApps", "..\WmiInstalledApps\WmiInstalledApps.csproj", "{5108392E-52FD-4A50-9D50-26711E19B323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WmiIntrinsicEvents", "..\WmiIntrinsicEvents\WmiIntrinsicEvents.csproj", "{7F4B21D7-CAD3-400D-8D76-1D82116E9A7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WmiIntrinsicEvents", "..\WmiIntrinsicEvents\WmiIntrinsicEvents.csproj", "{7F4B21D7-CAD3-400D-8D76-1D82116E9A7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WmiExtrinsicEvents", "..\WmiExtrinsicEvents\WmiExtrinsicEvents.csproj", "{E59AE013-B0EF-45C0-AC69-B11AC078ECD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WmiExtrinsicEvents", "..\WmiExtrinsicEvents\WmiExtrinsicEvents.csproj", "{E59AE013-B0EF-45C0-AC69-B11AC078ECD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WmiPermanentEvent", "..\WmiPermanentEvent\WmiPermanentEvent.csproj", "{7029881B-6D0D-4922-B3C0-9C9673383BBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WmiPermanentEvent", "..\WmiPermanentEvent\WmiPermanentEvent.csproj", "{7029881B-6D0D-4922-B3C0-9C9673383BBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{26CC80A4-CAF3-4071-AE75-430EA0BFB96C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
