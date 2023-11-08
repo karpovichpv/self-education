@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Pluralsight.Asymmetric</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="DigitalSignature.cs" />
+  </ItemGroup>
+</Project>

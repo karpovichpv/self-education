@@ -3,11 +3,11 @@
     "Favourite": "Blue"
   },
   "ConnectionStrings": {
-    "DutchContextDb": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=DutchTreatWebSiteDb;Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets = true;"
+    "DutchContextDb": "Data Source=WIN-6BBLMMUQVC5\\SQLEXPRESS;Initial Catalog=DutchTreatWebSiteDb;Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets = true;"
   },
   "Token": {
     "Key": "adslkfeiofnawvnwe0ignqweigna",
     "Issuer": "http://localhost:5001/",
-    "Audience":  "http://localhost:5001/"
+    "Audience": "http://localhost:5001/"
   }
 }

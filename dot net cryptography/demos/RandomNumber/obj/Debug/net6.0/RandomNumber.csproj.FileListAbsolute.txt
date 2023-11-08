@@ -1,0 +1,15 @@
+D:\Self-education\dot net cryptography\demos\RandomNumber\bin\Debug\net6.0\RandomNumber.exe
+D:\Self-education\dot net cryptography\demos\RandomNumber\bin\Debug\net6.0\RandomNumber.deps.json
+D:\Self-education\dot net cryptography\demos\RandomNumber\bin\Debug\net6.0\RandomNumber.runtimeconfig.json
+D:\Self-education\dot net cryptography\demos\RandomNumber\bin\Debug\net6.0\RandomNumber.dll
+D:\Self-education\dot net cryptography\demos\RandomNumber\bin\Debug\net6.0\RandomNumber.pdb
+D:\Self-education\dot net cryptography\demos\RandomNumber\obj\Debug\net6.0\RandomNumber.csproj.AssemblyReference.cache
+D:\Self-education\dot net cryptography\demos\RandomNumber\obj\Debug\net6.0\RandomNumber.GeneratedMSBuildEditorConfig.editorconfig
+D:\Self-education\dot net cryptography\demos\RandomNumber\obj\Debug\net6.0\RandomNumber.AssemblyInfoInputs.cache
+D:\Self-education\dot net cryptography\demos\RandomNumber\obj\Debug\net6.0\RandomNumber.AssemblyInfo.cs
+D:\Self-education\dot net cryptography\demos\RandomNumber\obj\Debug\net6.0\RandomNumber.csproj.CoreCompileInputs.cache
+D:\Self-education\dot net cryptography\demos\RandomNumber\obj\Debug\net6.0\RandomNumber.dll
+D:\Self-education\dot net cryptography\demos\RandomNumber\obj\Debug\net6.0\refint\RandomNumber.dll
+D:\Self-education\dot net cryptography\demos\RandomNumber\obj\Debug\net6.0\RandomNumber.pdb
+D:\Self-education\dot net cryptography\demos\RandomNumber\obj\Debug\net6.0\RandomNumber.genruntimeconfig.cache
+D:\Self-education\dot net cryptography\demos\RandomNumber\obj\Debug\net6.0\ref\RandomNumber.dll

@@ -1,0 +1,15 @@
+D:\Self-education\dot net cryptography\demos\RSA\bin\Debug\net6.0\RSA.exe
+D:\Self-education\dot net cryptography\demos\RSA\bin\Debug\net6.0\RSA.deps.json
+D:\Self-education\dot net cryptography\demos\RSA\bin\Debug\net6.0\RSA.runtimeconfig.json
+D:\Self-education\dot net cryptography\demos\RSA\bin\Debug\net6.0\RSA.dll
+D:\Self-education\dot net cryptography\demos\RSA\bin\Debug\net6.0\RSA.pdb
+D:\Self-education\dot net cryptography\demos\RSA\obj\Debug\net6.0\RSA.csproj.AssemblyReference.cache
+D:\Self-education\dot net cryptography\demos\RSA\obj\Debug\net6.0\RSA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Self-education\dot net cryptography\demos\RSA\obj\Debug\net6.0\RSA.AssemblyInfoInputs.cache
+D:\Self-education\dot net cryptography\demos\RSA\obj\Debug\net6.0\RSA.AssemblyInfo.cs
+D:\Self-education\dot net cryptography\demos\RSA\obj\Debug\net6.0\RSA.csproj.CoreCompileInputs.cache
+D:\Self-education\dot net cryptography\demos\RSA\obj\Debug\net6.0\RSA.dll
+D:\Self-education\dot net cryptography\demos\RSA\obj\Debug\net6.0\refint\RSA.dll
+D:\Self-education\dot net cryptography\demos\RSA\obj\Debug\net6.0\RSA.pdb
+D:\Self-education\dot net cryptography\demos\RSA\obj\Debug\net6.0\RSA.genruntimeconfig.cache
+D:\Self-education\dot net cryptography\demos\RSA\obj\Debug\net6.0\ref\RSA.dll

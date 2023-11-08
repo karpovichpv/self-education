@@ -25,7 +25,7 @@ namespace DutchTreat.Data
 
         public async Task SeedAsync()
         {
-            _context.Database.EnsureCreated();
+            _ = _context.Database.EnsureCreated();
 
             StoreUser user = await _userManager.FindByEmailAsync("karpovich.pavel@gmail.com");
             if (user == null)
