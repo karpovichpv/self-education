@@ -8,21 +8,16 @@ namespace WmiInstalledApps
         {
             try
             {
-                ManagementObject notepadObject = GetNotepadProcess();
+                List<ManagementObject> notepadObjects = GetNotepadProcess();
 
-                // Obtain in-parameters for the method
-                ManagementBaseObject inParams =
-                    notepadObject.GetMethodParameters("Terminate");
+                foreach (ManagementObject notepad in notepadObjects)
+                {
+                    ManagementBaseObject inParams = notepad.GetMethodParameters("Terminate");
+                    ManagementBaseObject outParams = notepad.InvokeMethod("Terminate", inParams, null);
+                    Console.WriteLine("Out parameters:");
+                    Console.WriteLine("ReturnValue: " + outParams["ReturnValue"]);
+                }
 
-                // Add the input parameters.
-
-                // Execute the method and obtain the return values.
-                ManagementBaseObject outParams =
-                    notepadObject.InvokeMethod("Terminate", inParams, null);
-
-                // List outParams
-                Console.WriteLine("Out parameters:");
-                Console.WriteLine("ReturnValue: " + outParams["ReturnValue"]);
             }
             catch (ManagementException err)
             {
@@ -30,23 +25,20 @@ namespace WmiInstalledApps
             }
         }
 
-        private static ManagementObject GetNotepadProcess()
+        private static List<ManagementObject> GetNotepadProcess()
         {
             try
             {
-                ManagementObjectSearcher searcher =
-                    new ManagementObjectSearcher("root\\CIMV2", "SELECT * FROM Win32_Process");
+                ManagementObjectSearcher searcher = new(
+                    "root\\CIMV2",
+                    "SELECT * FROM Win32_Process WHERE Name = \"notepad.exe\"");
+
+                List<ManagementObject> objects = new();
 
                 foreach (ManagementObject queryObj in searcher.Get())
-                {
-                    Console.WriteLine("-----------------------------------");
-                    Console.WriteLine("Win32_Process instance");
-                    Console.WriteLine("-----------------------------------");
+                    objects.Add(queryObj);
 
-                    bool isNotepad = queryObj["Caption"].ToString().ToLower().Contains("notepad");
-                    if (isNotepad)
-                        return queryObj;
-                }
+                return objects;
             }
             catch (ManagementException e)
             {
