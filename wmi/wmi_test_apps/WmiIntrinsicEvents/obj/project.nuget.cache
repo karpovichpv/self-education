@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Irht7LCBOykaTMF1luj3bgOeHWWNVwgV9jAQA3/SmomBeKLlLDtYTvMzRZCBemvaNtc3ffSOFBswy66suecIww==",
+  "dgSpecHash": "cbsmaH06kxd+OMRxiIueCfe/M2AcZZedfZr7og+mEHaMzMsMKetK9IwA6/EowEiRnr1CsBn9qwEE9OgnwISSWg==",
   "success": true,
-  "projectFilePath": "C:\\other\\SelfEducation\\wmi\\wmi_test_apps\\WmiIntrinsicEvents\\WmiIntrinsicEvents.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Self-education\\wmi\\wmi_test_apps\\WmiIntrinsicEvents\\WmiIntrinsicEvents.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\other\\SelfEducation\\wmi\\wmi_test_apps\\WmiExtrinsicEvents\\WmiExtrinsicEvents.csproj": {}
+    "D:\\Self-education\\wmi\\wmi_test_apps\\WmiExtrinsicEvents\\WmiExtrinsicEvents.csproj": {}
   },
   "projects": {
-    "C:\\other\\SelfEducation\\wmi\\wmi_test_apps\\WmiExtrinsicEvents\\WmiExtrinsicEvents.csproj": {
+    "D:\\Self-education\\wmi\\wmi_test_apps\\WmiExtrinsicEvents\\WmiExtrinsicEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\other\\SelfEducation\\wmi\\wmi_test_apps\\WmiExtrinsicEvents\\WmiExtrinsicEvents.csproj",
+        "projectUniqueName": "D:\\Self-education\\wmi\\wmi_test_apps\\WmiExtrinsicEvents\\WmiExtrinsicEvents.csproj",
         "projectName": "WmiExtrinsicEvents",
-        "projectPath": "C:\\other\\SelfEducation\\wmi\\wmi_test_apps\\WmiExtrinsicEvents\\WmiExtrinsicEvents.csproj",
+        "projectPath": "D:\\Self-education\\wmi\\wmi_test_apps\\WmiExtrinsicEvents\\WmiExtrinsicEvents.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\other\\SelfEducation\\wmi\\wmi_test_apps\\WmiExtrinsicEvents\\obj\\",
+        "outputPath": "D:\\Self-education\\wmi\\wmi_test_apps\\WmiExtrinsicEvents\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\other\\SelfEducation\\wmi\\wmi_test_apps\\WmiIntrinsicEvents\\WmiIntrinsicEvents.csproj": {}
+    "D:\\Self-education\\wmi\\wmi_test_apps\\WmiIntrinsicEvents\\WmiIntrinsicEvents.csproj": {}
   },
   "projects": {
-    "C:\\other\\SelfEducation\\wmi\\wmi_test_apps\\WmiIntrinsicEvents\\WmiIntrinsicEvents.csproj": {
+    "D:\\Self-education\\wmi\\wmi_test_apps\\WmiIntrinsicEvents\\WmiIntrinsicEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\other\\SelfEducation\\wmi\\wmi_test_apps\\WmiIntrinsicEvents\\WmiIntrinsicEvents.csproj",
+        "projectUniqueName": "D:\\Self-education\\wmi\\wmi_test_apps\\WmiIntrinsicEvents\\WmiIntrinsicEvents.csproj",
         "projectName": "WmiIntrinsicEvents",
-        "projectPath": "C:\\other\\SelfEducation\\wmi\\wmi_test_apps\\WmiIntrinsicEvents\\WmiIntrinsicEvents.csproj",
+        "projectPath": "D:\\Self-education\\wmi\\wmi_test_apps\\WmiIntrinsicEvents\\WmiIntrinsicEvents.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\other\\SelfEducation\\wmi\\wmi_test_apps\\WmiIntrinsicEvents\\obj\\",
+        "outputPath": "D:\\Self-education\\wmi\\wmi_test_apps\\WmiIntrinsicEvents\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Management": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
