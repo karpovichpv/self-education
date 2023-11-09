@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1D1GAunsYLPyBurMVVQrqJgj3aL2rXZD6OM/1JzB4DTY1wQumbJ9j5c5T+ehiZLausrCSo/pWpEM87ThA33xYA==",
+  "dgSpecHash": "8VmSXN1MBmgFHdc32hAUB0t/yTOtoX3JHglSrgsD4jb/cReQ61Vou6C9ZaUiT7rWFdQEVovlxFF23d/W0gA5Zw==",
   "success": true,
-  "projectFilePath": "D:\\Self-education\\wmi\\wmi_test_apps\\WmiPermanentEvent\\WmiPermanentEvent.csproj",
+  "projectFilePath": "C:\\other\\SelfEducation\\wmi\\wmi_test_apps\\WmiPermanentEvent\\WmiPermanentEvent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"

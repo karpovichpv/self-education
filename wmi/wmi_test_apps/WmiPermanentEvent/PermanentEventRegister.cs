@@ -31,7 +31,7 @@ namespace WmiPermanentEvent
                 myEventConsumer = new ManagementClass(scope, new ManagementPath("LogFileEventConsumer"), null)
                     .CreateInstance();
                 myEventConsumer["Name"] = "LogEventConsumer";
-                myEventConsumer["FileName"] = "C:\\Foo\\ProcLog2.log";
+                myEventConsumer["FileName"] = "C:\\Logs\\ProcLog2.log";
                 myEventConsumer["Text"] = "New process has been created: %TargetInstance.Name%;" +
                     " CreationDate: %TargetInstance.CreationDate%";
                 myEventConsumer.Put();

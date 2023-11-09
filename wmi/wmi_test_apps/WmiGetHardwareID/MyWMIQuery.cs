@@ -9,8 +9,7 @@ namespace WmiGetHardwareID
             try
             {
                 ManagementObjectSearcher searcher =
-                    new ManagementObjectSearcher("root\\CIMV2",
-                    "SELECT * FROM Win32_NetworkAdapter");
+                    new ManagementObjectSearcher("root\\CIMV2", "SELECT * FROM Win32_NetworkAdapter");
 
                 foreach (ManagementObject queryObj in searcher.Get())
                 {

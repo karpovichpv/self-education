@@ -10,10 +10,10 @@ namespace WmiInstalledApps
             {
                 List<ManagementObject> notepadObjects = GetNotepadProcess();
 
-                foreach (ManagementObject notepad in notepadObjects)
+                foreach (ManagementObject notepadProcess in notepadObjects)
                 {
-                    ManagementBaseObject inParams = notepad.GetMethodParameters("Terminate");
-                    ManagementBaseObject outParams = notepad.InvokeMethod("Terminate", inParams, null);
+                    ManagementBaseObject inParams = notepadProcess.GetMethodParameters("Terminate");
+                    ManagementBaseObject outParams = notepadProcess.InvokeMethod("Terminate", inParams, options: null);
                     Console.WriteLine("Out parameters:");
                     Console.WriteLine("ReturnValue: " + outParams["ReturnValue"]);
                 }
