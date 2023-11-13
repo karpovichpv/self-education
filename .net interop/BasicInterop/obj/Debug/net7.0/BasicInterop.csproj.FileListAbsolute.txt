@@ -1,0 +1,15 @@
+C:\other\SelfEducation\.net interop\BasicInterop\bin\Debug\net7.0\BasicInterop.exe
+C:\other\SelfEducation\.net interop\BasicInterop\bin\Debug\net7.0\BasicInterop.deps.json
+C:\other\SelfEducation\.net interop\BasicInterop\bin\Debug\net7.0\BasicInterop.runtimeconfig.json
+C:\other\SelfEducation\.net interop\BasicInterop\bin\Debug\net7.0\BasicInterop.dll
+C:\other\SelfEducation\.net interop\BasicInterop\bin\Debug\net7.0\BasicInterop.pdb
+C:\other\SelfEducation\.net interop\BasicInterop\obj\Debug\net7.0\BasicInterop.csproj.AssemblyReference.cache
+C:\other\SelfEducation\.net interop\BasicInterop\obj\Debug\net7.0\BasicInterop.GeneratedMSBuildEditorConfig.editorconfig
+C:\other\SelfEducation\.net interop\BasicInterop\obj\Debug\net7.0\BasicInterop.AssemblyInfoInputs.cache
+C:\other\SelfEducation\.net interop\BasicInterop\obj\Debug\net7.0\BasicInterop.AssemblyInfo.cs
+C:\other\SelfEducation\.net interop\BasicInterop\obj\Debug\net7.0\BasicInterop.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\BasicInterop\obj\Debug\net7.0\BasicInterop.dll
+C:\other\SelfEducation\.net interop\BasicInterop\obj\Debug\net7.0\refint\BasicInterop.dll
+C:\other\SelfEducation\.net interop\BasicInterop\obj\Debug\net7.0\BasicInterop.pdb
+C:\other\SelfEducation\.net interop\BasicInterop\obj\Debug\net7.0\BasicInterop.genruntimeconfig.cache
+C:\other\SelfEducation\.net interop\BasicInterop\obj\Debug\net7.0\ref\BasicInterop.dll
