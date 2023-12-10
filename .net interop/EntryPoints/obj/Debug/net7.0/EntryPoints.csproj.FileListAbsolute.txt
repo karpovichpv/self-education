@@ -1,0 +1,15 @@
+C:\other\SelfEducation\.net interop\EntryPoints\bin\Debug\net7.0\EntryPoints.exe
+C:\other\SelfEducation\.net interop\EntryPoints\bin\Debug\net7.0\EntryPoints.deps.json
+C:\other\SelfEducation\.net interop\EntryPoints\bin\Debug\net7.0\EntryPoints.runtimeconfig.json
+C:\other\SelfEducation\.net interop\EntryPoints\bin\Debug\net7.0\EntryPoints.dll
+C:\other\SelfEducation\.net interop\EntryPoints\bin\Debug\net7.0\EntryPoints.pdb
+C:\other\SelfEducation\.net interop\EntryPoints\obj\Debug\net7.0\EntryPoints.csproj.AssemblyReference.cache
+C:\other\SelfEducation\.net interop\EntryPoints\obj\Debug\net7.0\EntryPoints.GeneratedMSBuildEditorConfig.editorconfig
+C:\other\SelfEducation\.net interop\EntryPoints\obj\Debug\net7.0\EntryPoints.AssemblyInfoInputs.cache
+C:\other\SelfEducation\.net interop\EntryPoints\obj\Debug\net7.0\EntryPoints.AssemblyInfo.cs
+C:\other\SelfEducation\.net interop\EntryPoints\obj\Debug\net7.0\EntryPoints.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\EntryPoints\obj\Debug\net7.0\EntryPoints.dll
+C:\other\SelfEducation\.net interop\EntryPoints\obj\Debug\net7.0\refint\EntryPoints.dll
+C:\other\SelfEducation\.net interop\EntryPoints\obj\Debug\net7.0\EntryPoints.pdb
+C:\other\SelfEducation\.net interop\EntryPoints\obj\Debug\net7.0\EntryPoints.genruntimeconfig.cache
+C:\other\SelfEducation\.net interop\EntryPoints\obj\Debug\net7.0\ref\EntryPoints.dll

@@ -1,0 +1,17 @@
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\bin\Debug\net8.0\SimpleCOMInterop.exe
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\bin\Debug\net8.0\SimpleCOMInterop.deps.json
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\bin\Debug\net8.0\SimpleCOMInterop.runtimeconfig.json
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\bin\Debug\net8.0\SimpleCOMInterop.dll
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\bin\Debug\net8.0\SimpleCOMInterop.pdb
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\obj\Debug\net8.0\Interop.MathServerLib.dll
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\obj\Debug\net8.0\SimpleCOMInterop.csproj.ResolveComReference.cache
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\obj\Debug\net8.0\SimpleCOMInterop.GeneratedMSBuildEditorConfig.editorconfig
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\obj\Debug\net8.0\SimpleCOMInterop.AssemblyInfoInputs.cache
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\obj\Debug\net8.0\SimpleCOMInterop.AssemblyInfo.cs
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\obj\Debug\net8.0\SimpleCOMInterop.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\obj\Debug\net8.0\SimpleCOMInterop.sourcelink.json
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\obj\Debug\net8.0\SimpleCOMInterop.dll
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\obj\Debug\net8.0\refint\SimpleCOMInterop.dll
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\obj\Debug\net8.0\SimpleCOMInterop.pdb
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\obj\Debug\net8.0\SimpleCOMInterop.genruntimeconfig.cache
+C:\other\SelfEducation\.net interop\SimpleCOMInterop\obj\Debug\net8.0\ref\SimpleCOMInterop.dll

@@ -1,0 +1,7 @@
+C:\other\SelfEducation\.net interop\COMDynamicDispatch\bin\Debug\COMDynamicDispatch.exe.config
+C:\other\SelfEducation\.net interop\COMDynamicDispatch\bin\Debug\COMDynamicDispatch.exe
+C:\other\SelfEducation\.net interop\COMDynamicDispatch\bin\Debug\COMDynamicDispatch.pdb
+C:\other\SelfEducation\.net interop\COMDynamicDispatch\obj\Debug\COMDynamicDispatch.csproj.AssemblyReference.cache
+C:\other\SelfEducation\.net interop\COMDynamicDispatch\obj\Debug\COMDynamicDispatch.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\COMDynamicDispatch\obj\Debug\COMDynamicDispatch.exe
+C:\other\SelfEducation\.net interop\COMDynamicDispatch\obj\Debug\COMDynamicDispatch.pdb

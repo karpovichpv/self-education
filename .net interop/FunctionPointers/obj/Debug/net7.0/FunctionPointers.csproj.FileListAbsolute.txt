@@ -1,0 +1,15 @@
+C:\other\SelfEducation\.net interop\FunctionPointers\bin\Debug\net7.0\FunctionPointers.exe
+C:\other\SelfEducation\.net interop\FunctionPointers\bin\Debug\net7.0\FunctionPointers.deps.json
+C:\other\SelfEducation\.net interop\FunctionPointers\bin\Debug\net7.0\FunctionPointers.runtimeconfig.json
+C:\other\SelfEducation\.net interop\FunctionPointers\bin\Debug\net7.0\FunctionPointers.dll
+C:\other\SelfEducation\.net interop\FunctionPointers\bin\Debug\net7.0\FunctionPointers.pdb
+C:\other\SelfEducation\.net interop\FunctionPointers\obj\Debug\net7.0\FunctionPointers.csproj.AssemblyReference.cache
+C:\other\SelfEducation\.net interop\FunctionPointers\obj\Debug\net7.0\FunctionPointers.GeneratedMSBuildEditorConfig.editorconfig
+C:\other\SelfEducation\.net interop\FunctionPointers\obj\Debug\net7.0\FunctionPointers.AssemblyInfoInputs.cache
+C:\other\SelfEducation\.net interop\FunctionPointers\obj\Debug\net7.0\FunctionPointers.AssemblyInfo.cs
+C:\other\SelfEducation\.net interop\FunctionPointers\obj\Debug\net7.0\FunctionPointers.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\FunctionPointers\obj\Debug\net7.0\FunctionPointers.dll
+C:\other\SelfEducation\.net interop\FunctionPointers\obj\Debug\net7.0\refint\FunctionPointers.dll
+C:\other\SelfEducation\.net interop\FunctionPointers\obj\Debug\net7.0\FunctionPointers.pdb
+C:\other\SelfEducation\.net interop\FunctionPointers\obj\Debug\net7.0\FunctionPointers.genruntimeconfig.cache
+C:\other\SelfEducation\.net interop\FunctionPointers\obj\Debug\net7.0\ref\FunctionPointers.dll

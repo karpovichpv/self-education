@@ -1,0 +1,6 @@
+C:\other\SelfEducation\.net interop\COMApartments\bin\Release\COMApartments.exe
+C:\other\SelfEducation\.net interop\COMApartments\bin\Release\COMApartments.pdb
+C:\other\SelfEducation\.net interop\COMApartments\obj\Release\COMApartments.csproj.AssemblyReference.cache
+C:\other\SelfEducation\.net interop\COMApartments\obj\Release\COMApartments.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\COMApartments\obj\Release\COMApartments.exe
+C:\other\SelfEducation\.net interop\COMApartments\obj\Release\COMApartments.pdb

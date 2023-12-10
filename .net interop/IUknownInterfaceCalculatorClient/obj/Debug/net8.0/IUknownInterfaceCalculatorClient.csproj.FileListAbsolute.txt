@@ -1,0 +1,17 @@
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\bin\Debug\net8.0\IUknownInterfaceCalculatorClient.exe
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\bin\Debug\net8.0\IUknownInterfaceCalculatorClient.deps.json
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\bin\Debug\net8.0\IUknownInterfaceCalculatorClient.runtimeconfig.json
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\bin\Debug\net8.0\IUknownInterfaceCalculatorClient.dll
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\bin\Debug\net8.0\IUknownInterfaceCalculatorClient.pdb
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\obj\Debug\net8.0\IUknownInterfaceCalculatorClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\obj\Debug\net8.0\IUknownInterfaceCalculatorClient.AssemblyInfoInputs.cache
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\obj\Debug\net8.0\IUknownInterfaceCalculatorClient.AssemblyInfo.cs
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\obj\Debug\net8.0\IUknownInterfaceCalculatorClient.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\obj\Debug\net8.0\IUknownInterfaceCalculatorClient.sourcelink.json
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\obj\Debug\net8.0\IUknownInterfaceCalculatorClient.dll
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\obj\Debug\net8.0\refint\IUknownInterfaceCalculatorClient.dll
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\obj\Debug\net8.0\IUknownInterfaceCalculatorClient.pdb
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\obj\Debug\net8.0\IUknownInterfaceCalculatorClient.genruntimeconfig.cache
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\obj\Debug\net8.0\ref\IUknownInterfaceCalculatorClient.dll
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\obj\Debug\net8.0\Interop.CalculatorSvrLib.dll
+C:\other\SelfEducation\.net interop\IUknownInterfaceCalculatorClient\obj\Debug\net8.0\IUknownInterfaceCalculatorClient.csproj.ResolveComReference.cache

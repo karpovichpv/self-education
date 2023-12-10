@@ -1,0 +1,15 @@
+C:\other\SelfEducation\.net interop\ObjectPinning\bin\Release\net7.0\ObjectPinning.exe
+C:\other\SelfEducation\.net interop\ObjectPinning\bin\Release\net7.0\ObjectPinning.deps.json
+C:\other\SelfEducation\.net interop\ObjectPinning\bin\Release\net7.0\ObjectPinning.runtimeconfig.json
+C:\other\SelfEducation\.net interop\ObjectPinning\bin\Release\net7.0\ObjectPinning.dll
+C:\other\SelfEducation\.net interop\ObjectPinning\bin\Release\net7.0\ObjectPinning.pdb
+C:\other\SelfEducation\.net interop\ObjectPinning\obj\Release\net7.0\ObjectPinning.GeneratedMSBuildEditorConfig.editorconfig
+C:\other\SelfEducation\.net interop\ObjectPinning\obj\Release\net7.0\ObjectPinning.AssemblyInfoInputs.cache
+C:\other\SelfEducation\.net interop\ObjectPinning\obj\Release\net7.0\ObjectPinning.AssemblyInfo.cs
+C:\other\SelfEducation\.net interop\ObjectPinning\obj\Release\net7.0\ObjectPinning.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\ObjectPinning\obj\Release\net7.0\ObjectPinning.sourcelink.json
+C:\other\SelfEducation\.net interop\ObjectPinning\obj\Release\net7.0\ObjectPinning.dll
+C:\other\SelfEducation\.net interop\ObjectPinning\obj\Release\net7.0\refint\ObjectPinning.dll
+C:\other\SelfEducation\.net interop\ObjectPinning\obj\Release\net7.0\ObjectPinning.pdb
+C:\other\SelfEducation\.net interop\ObjectPinning\obj\Release\net7.0\ObjectPinning.genruntimeconfig.cache
+C:\other\SelfEducation\.net interop\ObjectPinning\obj\Release\net7.0\ref\ObjectPinning.dll

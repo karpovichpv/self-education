@@ -1,0 +1,15 @@
+C:\other\SelfEducation\.net interop\CallingConvention\bin\Debug\net7.0\CallingConvention.exe
+C:\other\SelfEducation\.net interop\CallingConvention\bin\Debug\net7.0\CallingConvention.deps.json
+C:\other\SelfEducation\.net interop\CallingConvention\bin\Debug\net7.0\CallingConvention.runtimeconfig.json
+C:\other\SelfEducation\.net interop\CallingConvention\bin\Debug\net7.0\CallingConvention.dll
+C:\other\SelfEducation\.net interop\CallingConvention\bin\Debug\net7.0\CallingConvention.pdb
+C:\other\SelfEducation\.net interop\CallingConvention\obj\Debug\net7.0\CallingConvention.csproj.AssemblyReference.cache
+C:\other\SelfEducation\.net interop\CallingConvention\obj\Debug\net7.0\CallingConvention.GeneratedMSBuildEditorConfig.editorconfig
+C:\other\SelfEducation\.net interop\CallingConvention\obj\Debug\net7.0\CallingConvention.AssemblyInfoInputs.cache
+C:\other\SelfEducation\.net interop\CallingConvention\obj\Debug\net7.0\CallingConvention.AssemblyInfo.cs
+C:\other\SelfEducation\.net interop\CallingConvention\obj\Debug\net7.0\CallingConvention.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\CallingConvention\obj\Debug\net7.0\CallingConvention.dll
+C:\other\SelfEducation\.net interop\CallingConvention\obj\Debug\net7.0\refint\CallingConvention.dll
+C:\other\SelfEducation\.net interop\CallingConvention\obj\Debug\net7.0\CallingConvention.pdb
+C:\other\SelfEducation\.net interop\CallingConvention\obj\Debug\net7.0\CallingConvention.genruntimeconfig.cache
+C:\other\SelfEducation\.net interop\CallingConvention\obj\Debug\net7.0\ref\CallingConvention.dll

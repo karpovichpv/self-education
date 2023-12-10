@@ -1,0 +1,8 @@
+C:\other\SelfEducation\.net interop\COMApartments\obj\Debug\COMApartments.csproj.AssemblyReference.cache
+C:\other\SelfEducation\.net interop\COMApartments\obj\Debug\COMApartments.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\COMApartments\bin\Debug\COMApartments.exe
+C:\other\SelfEducation\.net interop\COMApartments\bin\Debug\COMApartments.pdb
+C:\other\SelfEducation\.net interop\COMApartments\obj\Debug\COMApartments.exe
+C:\other\SelfEducation\.net interop\COMApartments\obj\Debug\COMApartments.pdb
+C:\other\SelfEducation\.net interop\COMApartments\obj\Debug\Interop.MathServerLib.dll
+C:\other\SelfEducation\.net interop\COMApartments\obj\Debug\COMApartments.csproj.ResolveComReference.cache

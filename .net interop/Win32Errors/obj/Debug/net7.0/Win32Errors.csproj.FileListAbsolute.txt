@@ -1,0 +1,15 @@
+C:\other\SelfEducation\.net interop\Win32Errors\obj\Debug\net7.0\Win32Errors.csproj.AssemblyReference.cache
+C:\other\SelfEducation\.net interop\Win32Errors\obj\Debug\net7.0\Win32Errors.GeneratedMSBuildEditorConfig.editorconfig
+C:\other\SelfEducation\.net interop\Win32Errors\obj\Debug\net7.0\Win32Errors.AssemblyInfoInputs.cache
+C:\other\SelfEducation\.net interop\Win32Errors\obj\Debug\net7.0\Win32Errors.AssemblyInfo.cs
+C:\other\SelfEducation\.net interop\Win32Errors\obj\Debug\net7.0\Win32Errors.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\Win32Errors\bin\Debug\net7.0\Win32Errors.exe
+C:\other\SelfEducation\.net interop\Win32Errors\bin\Debug\net7.0\Win32Errors.deps.json
+C:\other\SelfEducation\.net interop\Win32Errors\bin\Debug\net7.0\Win32Errors.runtimeconfig.json
+C:\other\SelfEducation\.net interop\Win32Errors\bin\Debug\net7.0\Win32Errors.dll
+C:\other\SelfEducation\.net interop\Win32Errors\bin\Debug\net7.0\Win32Errors.pdb
+C:\other\SelfEducation\.net interop\Win32Errors\obj\Debug\net7.0\Win32Errors.dll
+C:\other\SelfEducation\.net interop\Win32Errors\obj\Debug\net7.0\refint\Win32Errors.dll
+C:\other\SelfEducation\.net interop\Win32Errors\obj\Debug\net7.0\Win32Errors.pdb
+C:\other\SelfEducation\.net interop\Win32Errors\obj\Debug\net7.0\Win32Errors.genruntimeconfig.cache
+C:\other\SelfEducation\.net interop\Win32Errors\obj\Debug\net7.0\ref\Win32Errors.dll

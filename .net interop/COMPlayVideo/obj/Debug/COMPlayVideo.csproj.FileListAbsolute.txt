@@ -1,0 +1,7 @@
+C:\other\SelfEducation\.net interop\COMPlayVideo\bin\Debug\COMPlayVideo.exe.config
+C:\other\SelfEducation\.net interop\COMPlayVideo\bin\Debug\COMPlayVideo.exe
+C:\other\SelfEducation\.net interop\COMPlayVideo\bin\Debug\COMPlayVideo.pdb
+C:\other\SelfEducation\.net interop\COMPlayVideo\obj\Debug\COMPlayVideo.csproj.AssemblyReference.cache
+C:\other\SelfEducation\.net interop\COMPlayVideo\obj\Debug\COMPlayVideo.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\COMPlayVideo\obj\Debug\COMPlayVideo.exe
+C:\other\SelfEducation\.net interop\COMPlayVideo\obj\Debug\COMPlayVideo.pdb

@@ -1,0 +1,26 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ObjectPinning/1.0.0": {
+        "dependencies": {
+          "SampleNativeLib": "1.0.0"
+        },
+        "runtime": {
+          "ObjectPinning.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ObjectPinning/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,7 @@
+C:\other\SelfEducation\.net interop\COMCsMathLibrary\bin\Debug\COMCsMathLibrary.dll
+C:\other\SelfEducation\.net interop\COMCsMathLibrary\bin\Debug\COMCsMathLibrary.pdb
+C:\other\SelfEducation\.net interop\COMCsMathLibrary\bin\Debug\COMCsMathLibrary.tlb
+C:\other\SelfEducation\.net interop\COMCsMathLibrary\obj\Debug\COMCsMathLibrary.csproj.AssemblyReference.cache
+C:\other\SelfEducation\.net interop\COMCsMathLibrary\obj\Debug\COMCsMathLibrary.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\COMCsMathLibrary\obj\Debug\COMCsMathLibrary.dll
+C:\other\SelfEducation\.net interop\COMCsMathLibrary\obj\Debug\COMCsMathLibrary.pdb

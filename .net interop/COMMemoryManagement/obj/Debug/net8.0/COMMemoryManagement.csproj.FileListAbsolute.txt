@@ -1,0 +1,17 @@
+C:\other\SelfEducation\.net interop\COMMemoryManagement\bin\Debug\net8.0\COMMemoryManagement.exe
+C:\other\SelfEducation\.net interop\COMMemoryManagement\bin\Debug\net8.0\COMMemoryManagement.deps.json
+C:\other\SelfEducation\.net interop\COMMemoryManagement\bin\Debug\net8.0\COMMemoryManagement.runtimeconfig.json
+C:\other\SelfEducation\.net interop\COMMemoryManagement\bin\Debug\net8.0\COMMemoryManagement.dll
+C:\other\SelfEducation\.net interop\COMMemoryManagement\bin\Debug\net8.0\COMMemoryManagement.pdb
+C:\other\SelfEducation\.net interop\COMMemoryManagement\obj\Debug\net8.0\Interop.CalculatorSvrLib.dll
+C:\other\SelfEducation\.net interop\COMMemoryManagement\obj\Debug\net8.0\COMMemoryManagement.csproj.ResolveComReference.cache
+C:\other\SelfEducation\.net interop\COMMemoryManagement\obj\Debug\net8.0\COMMemoryManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\other\SelfEducation\.net interop\COMMemoryManagement\obj\Debug\net8.0\COMMemoryManagement.AssemblyInfoInputs.cache
+C:\other\SelfEducation\.net interop\COMMemoryManagement\obj\Debug\net8.0\COMMemoryManagement.AssemblyInfo.cs
+C:\other\SelfEducation\.net interop\COMMemoryManagement\obj\Debug\net8.0\COMMemoryManagement.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\COMMemoryManagement\obj\Debug\net8.0\COMMemoryManagement.sourcelink.json
+C:\other\SelfEducation\.net interop\COMMemoryManagement\obj\Debug\net8.0\COMMemoryManagement.dll
+C:\other\SelfEducation\.net interop\COMMemoryManagement\obj\Debug\net8.0\refint\COMMemoryManagement.dll
+C:\other\SelfEducation\.net interop\COMMemoryManagement\obj\Debug\net8.0\COMMemoryManagement.pdb
+C:\other\SelfEducation\.net interop\COMMemoryManagement\obj\Debug\net8.0\COMMemoryManagement.genruntimeconfig.cache
+C:\other\SelfEducation\.net interop\COMMemoryManagement\obj\Debug\net8.0\ref\COMMemoryManagement.dll

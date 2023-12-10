@@ -1,0 +1,13 @@
+e:\Dev\temp\CSMathLibrary\CSMathLibrary\bin\Debug\CSMathLibrary.dll
+e:\Dev\temp\CSMathLibrary\CSMathLibrary\bin\Debug\CSMathLibrary.pdb
+e:\Dev\temp\CSMathLibrary\CSMathLibrary\obj\Debug\CSMathLibrary.csprojResolveAssemblyReference.cache
+e:\Dev\temp\CSMathLibrary\CSMathLibrary\obj\Debug\CSMathLibrary.dll
+e:\Dev\temp\CSMathLibrary\CSMathLibrary\obj\Debug\CSMathLibrary.pdb
+e:\Dev\temp\CSMathLibrary\CSMathLibrary\bin\Debug\CSMathLibrary.tlb
+C:\other\SelfEducation\.net interop\CSMathLibrary\CSMathLibrary\bin\Debug\CSMathLibrary.dll
+C:\other\SelfEducation\.net interop\CSMathLibrary\CSMathLibrary\bin\Debug\CSMathLibrary.pdb
+C:\other\SelfEducation\.net interop\CSMathLibrary\CSMathLibrary\bin\Debug\CSMathLibrary.tlb
+C:\other\SelfEducation\.net interop\CSMathLibrary\CSMathLibrary\obj\Debug\CSMathLibrary.csproj.AssemblyReference.cache
+C:\other\SelfEducation\.net interop\CSMathLibrary\CSMathLibrary\obj\Debug\CSMathLibrary.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\CSMathLibrary\CSMathLibrary\obj\Debug\CSMathLibrary.dll
+C:\other\SelfEducation\.net interop\CSMathLibrary\CSMathLibrary\obj\Debug\CSMathLibrary.pdb

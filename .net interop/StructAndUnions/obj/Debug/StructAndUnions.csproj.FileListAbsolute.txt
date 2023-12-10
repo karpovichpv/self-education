@@ -1,0 +1,8 @@
+C:\other\SelfEducation\.net interop\StructAndUnions\bin\Debug\StructAndUnions.exe.config
+C:\other\SelfEducation\.net interop\StructAndUnions\bin\Debug\StructAndUnions.exe
+C:\other\SelfEducation\.net interop\StructAndUnions\bin\Debug\StructAndUnions.pdb
+C:\other\SelfEducation\.net interop\StructAndUnions\obj\Debug\StructAndUnions.csproj.AssemblyReference.cache
+C:\other\SelfEducation\.net interop\StructAndUnions\obj\Debug\StructAndUnions.csproj.SuggestedBindingRedirects.cache
+C:\other\SelfEducation\.net interop\StructAndUnions\obj\Debug\StructAndUnions.csproj.CoreCompileInputs.cache
+C:\other\SelfEducation\.net interop\StructAndUnions\obj\Debug\StructAndUnions.exe
+C:\other\SelfEducation\.net interop\StructAndUnions\obj\Debug\StructAndUnions.pdb

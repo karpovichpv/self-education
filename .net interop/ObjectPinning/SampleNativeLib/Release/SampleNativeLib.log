@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  SampleNativeLib.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(C:\other\SelfEducation\.net interop\ObjectPinning\Release\SampleNativeLib.dll) does not match the Linker's OutputFile property value (C:\other\SelfEducation\.net interop\ObjectPinning\ObjectPinning\Bin\Release\SampleNativeLib.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library C:\other\SelfEducation\.net interop\ObjectPinning\Release\SampleNativeLib.lib and object C:\other\SelfEducation\.net interop\ObjectPinning\Release\SampleNativeLib.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 3 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SampleNativeLib.vcxproj -> C:\other\SelfEducation\.net interop\ObjectPinning\Release\SampleNativeLib.dll
