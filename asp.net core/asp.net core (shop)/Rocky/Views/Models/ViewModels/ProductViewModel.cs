@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using Rocky.Models;
 
-namespace Rocky.Views.Models.ViewModels
+namespace Rocky.Models.ViewModels
 {
-    public class ProductViewModel
+    public class ProductVM
     {
         public Product Product { get; set; }
         public IEnumerable<SelectListItem> CategorySelectList { get; set; }
