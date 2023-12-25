@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Rocky.Data;
 using Rocky.Models;
+using Rocky.Views.Models.ViewModels;
 
 namespace Rocky.Controllers
 {
@@ -28,28 +29,39 @@ namespace Rocky.Controllers
 
         public IActionResult Upsert(int? id)
         {
-            IEnumerable<SelectListItem> CategoryDropDown = _db.Category.Select(i => new SelectListItem
+            //IEnumerable<SelectListItem> CategoryDropDown = _db.Category.Select(i => new SelectListItem
+            //{
+            //    Text = i.Name,
+            //    Value = i.Id.ToString()
+            //});
+
+            //ViewData["CategoryDropDown"] = CategoryDropDown;
+
+            //Product product = new Product();
+
+            ProductViewModel productViewModel = new()
             {
-                Text = i.Name,
-                Value = i.Id.ToString()
-            });
+                Product = new Product(),
+                CategorySelectList = _db.Category.Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                })
+            };
 
-            ViewData["CategoryDropDown"] = CategoryDropDown;
-
-            Product product = new Product();
             if (id == null)
             {
-                return View(product);
+                return View(productViewModel);
             }
             else
             {
-                product = _db.Products.Find(id);
-                if (product == null)
+                productViewModel.Product = _db.Products.Find(id);
+                if (productViewModel.Product == null)
                 {
                     return NotFound();
                 }
 
-                return View(product);
+                return View(productViewModel);
             }
         }
 
