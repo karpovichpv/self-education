@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Rocky.Data;
 using Rocky.Models;
 using Rocky.Models.ViewModels;
@@ -89,6 +90,12 @@ namespace Rocky.Controllers
                     // Updating
                 }
 
+                productViewModel.CategorySelectList = _db.Category.Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                });
+
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -100,24 +107,34 @@ namespace Rocky.Controllers
             if (id == null || id == 0)
                 return NotFound();
 
-            Category? obj = _db.Category.Find(id);
-            if (obj == null)
+            Product product = _db.Products.Include(u => u.Category).FirstOrDefault(u => u.Id == id);
+
+            if (product == null)
                 return NotFound();
 
-            return View(obj);
+            return View(product);
         }
 
-        [HttpPost]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeletePost(int? id)
         {
-            var obj = _db.Category.Find(id);
+            var obj = _db.Products.Find(id);
 
             if (obj == null)
             {
                 return NotFound();
             }
-            _db.Category.Remove(obj);
+
+            string upload = _webHostEnvironment.WebRootPath + WebConstants.ImagePath;
+            string oldFile = Path.Combine(upload, obj.Image);
+
+            if (System.IO.File.Exists(oldFile))
+            {
+                System.IO.File.Delete(oldFile);
+            }
+
+            _db.Products.Remove(obj);
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
