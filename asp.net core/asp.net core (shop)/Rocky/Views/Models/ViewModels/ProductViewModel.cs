@@ -2,9 +2,10 @@
 
 namespace Rocky.Models.ViewModels
 {
-    public class ProductVM
+    public class ProductViewModel
     {
         public Product Product { get; set; }
-        public IEnumerable<SelectListItem> CategorySelectList { get; set; } = new List<SelectListItem>();
+        public IEnumerable<SelectListItem> CategorySelectList { get; set; }
+        public IEnumerable<SelectListItem> ApplicationTypeSelectList { get; set; }
     }
 }
