@@ -14,6 +14,13 @@ public class Startup
     {
         services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
             Configuration.GetConnectionString("DefaultConnection")));
+        services.AddHttpContextAccessor();
+        services.AddSession(Options =>
+        {
+            Options.IdleTimeout = TimeSpan.FromMinutes(10);
+            Options.Cookie.HttpOnly = true;
+            Options.Cookie.IsEssential = true;
+        });
         services.AddControllersWithViews();
     }
 
@@ -32,6 +39,7 @@ public class Startup
         app.UseStaticFiles();
         app.UseRouting();
         app.UseAuthorization();
+        app.UseSession();
         app.UseEndpoints(endPoints =>
         {
             endPoints.MapControllerRoute(
