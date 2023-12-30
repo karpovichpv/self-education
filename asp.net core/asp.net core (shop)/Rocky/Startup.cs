@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Rocky.Data;
 
 public class Startup
@@ -14,6 +15,10 @@ public class Startup
     {
         services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
             Configuration.GetConnectionString("DefaultConnection")));
+
+        services.AddDefaultIdentity<IdentityUser>()
+            .AddEntityFrameworkStores<ApplicationDbContext>();
+
         services.AddHttpContextAccessor();
         services.AddSession(Options =>
         {
@@ -38,6 +43,7 @@ public class Startup
         app.UseHttpsRedirection();
         app.UseStaticFiles();
         app.UseRouting();
+        app.UseAuthentication();
         app.UseAuthorization();
         app.UseSession();
         app.UseEndpoints(endPoints =>
