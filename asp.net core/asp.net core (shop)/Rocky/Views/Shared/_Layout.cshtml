@@ -24,6 +24,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
                     </ul>
                 </div>
@@ -51,11 +52,11 @@
                             </ul>
                         </li>
                         <li>
-                            @if(HttpContextAccessor.HttpContext.Session.Get<List<ShoppingCart>>(WebConstants.SessionCart) != null)
+                            @if(RockySessionExtensions.Get<List<ShoppingCart>>(HttpContextAccessor.HttpContext.Session,WebConstants.SessionCart) != null)
                             {
                                 <a asp-action="Index" asp-controller="Cart" class="nav-link">
                                     @{
-                                        var count = HttpContextAccessor.HttpContext.Session.Get<List<ShoppingCart>>(WebConstants.SessionCart).Count;
+                                        var count = RockySessionExtensions.Get<List<ShoppingCart>>(HttpContextAccessor.HttpContext.Session,WebConstants.SessionCart).Count;
                                     }
                                     <i class="fas fa-shopping-cart"></i> &nbsp; (@count)
                                 </a>
