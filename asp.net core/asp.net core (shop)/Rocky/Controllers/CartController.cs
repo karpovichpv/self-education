@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Rocky.Data;
 using Rocky.Models;
+using Rocky.Utility;
 
 namespace Rocky.Controllers
 {
@@ -15,11 +16,19 @@ namespace Rocky.Controllers
 
         public IActionResult Index()
         {
-            List<ShoppingCart> shoppingCart = new List<ShoppingCart>();
+            List<ShoppingCart> shoppingCartList = [];
 
-            if (HttpContext.Session.Get<IEnumerable<ShoppingCart>>(WebConstants.SessionCart) != null
+            List<ShoppingCart> existingShoppingCarts = RockySessionExtensions.Get<List<ShoppingCart>>(HttpContext.Session, WebConstants.SessionCart);
+            if (existingShoppingCarts != null && existingShoppingCarts.Count() > 0)
+            {
+                // session exists
+                shoppingCartList = existingShoppingCarts;
+            }
 
-            return View();
+            List<int> productsInCart = shoppingCartList.Select(i => i.ProductId).ToList();
+            IEnumerable<Product> productList = _db.Product.Where(u => productsInCart.Contains(u.Id));
+
+            return View(productList);
         }
     }
 }
