@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Rocky.Data;
+using Rocky.Utility;
 
 public class Startup
 {
@@ -21,6 +23,8 @@ public class Startup
             .AddDefaultTokenProviders()
             .AddDefaultUI()
             .AddEntityFrameworkStores<ApplicationDbContext>();
+
+        services.AddTransient<IEmailSender, EmailSender>();
 
         services.AddHttpContextAccessor();
         services.AddSession(Options =>
