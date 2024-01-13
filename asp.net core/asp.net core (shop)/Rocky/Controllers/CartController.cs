@@ -11,6 +11,7 @@ using System.Text;
 namespace Rocky.Controllers
 {
     [Authorize]
+    [Authorize(Roles = WebConstants.AdminRole)]
     public class CartController : Controller
     {
         private readonly ApplicationDbContext _db;
