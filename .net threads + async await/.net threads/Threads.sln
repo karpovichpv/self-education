@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreadsAccessToStaticField",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadAbort", "ThreadAbort\ThreadAbort.csproj", "{36D95E2F-6947-4CE3-B07D-A9087A6B0D7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadBackgroundForeground", "ThreadBackgroundForeground\ThreadBackgroundForeground.csproj", "{9C8546B4-B0CD-483B-90E9-9E58A29A90BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{36D95E2F-6947-4CE3-B07D-A9087A6B0D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36D95E2F-6947-4CE3-B07D-A9087A6B0D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36D95E2F-6947-4CE3-B07D-A9087A6B0D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8546B4-B0CD-483B-90E9-9E58A29A90BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8546B4-B0CD-483B-90E9-9E58A29A90BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8546B4-B0CD-483B-90E9-9E58A29A90BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8546B4-B0CD-483B-90E9-9E58A29A90BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
