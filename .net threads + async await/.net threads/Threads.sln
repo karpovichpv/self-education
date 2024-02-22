@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadJoinMethod2", "Thread
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreadsAccessToStaticField", "TreadsAccessToStaticField\TreadsAccessToStaticField.csproj", "{B02E85C0-7FD7-48A8-9887-C15B3E33C641}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadAbort", "ThreadAbort\ThreadAbort.csproj", "{36D95E2F-6947-4CE3-B07D-A9087A6B0D7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B02E85C0-7FD7-48A8-9887-C15B3E33C641}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B02E85C0-7FD7-48A8-9887-C15B3E33C641}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B02E85C0-7FD7-48A8-9887-C15B3E33C641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D95E2F-6947-4CE3-B07D-A9087A6B0D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D95E2F-6947-4CE3-B07D-A9087A6B0D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D95E2F-6947-4CE3-B07D-A9087A6B0D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D95E2F-6947-4CE3-B07D-A9087A6B0D7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
