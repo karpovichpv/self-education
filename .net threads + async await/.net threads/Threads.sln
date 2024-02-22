@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadJointMethod", "ThreadJointMethod\ThreadJointMethod.csproj", "{AB8E48DF-26FA-46AF-926B-10449F5EBB55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadJoinMethod2", "ThreadJoinMethod2\ThreadJoinMethod2.csproj", "{57DEEE7E-FDE5-4361-AFA4-D3422CA48044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadJoinMethod2", "ThreadJoinMethod2\ThreadJoinMethod2.csproj", "{57DEEE7E-FDE5-4361-AFA4-D3422CA48044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreadsAccessToStaticField", "TreadsAccessToStaticField\TreadsAccessToStaticField.csproj", "{B02E85C0-7FD7-48A8-9887-C15B3E33C641}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{57DEEE7E-FDE5-4361-AFA4-D3422CA48044}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57DEEE7E-FDE5-4361-AFA4-D3422CA48044}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57DEEE7E-FDE5-4361-AFA4-D3422CA48044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02E85C0-7FD7-48A8-9887-C15B3E33C641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02E85C0-7FD7-48A8-9887-C15B3E33C641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02E85C0-7FD7-48A8-9887-C15B3E33C641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02E85C0-7FD7-48A8-9887-C15B3E33C641}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
