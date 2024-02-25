@@ -3,19 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadJointMethod", "ThreadJointMethod\ThreadJointMethod.csproj", "{AB8E48DF-26FA-46AF-926B-10449F5EBB55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsJointMethod", "ThreadsBasics\ThreadsJointMethod\ThreadsJointMethod.csproj", "{AB8E48DF-26FA-46AF-926B-10449F5EBB55}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadJoinMethod2", "ThreadJoinMethod2\ThreadJoinMethod2.csproj", "{57DEEE7E-FDE5-4361-AFA4-D3422CA48044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsJoinMethod2", "ThreadsBasics\ThreadsJoinMethod2\ThreadsJoinMethod2.csproj", "{57DEEE7E-FDE5-4361-AFA4-D3422CA48044}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreadsAccessToStaticField", "TreadsAccessToStaticField\TreadsAccessToStaticField.csproj", "{B02E85C0-7FD7-48A8-9887-C15B3E33C641}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsAccessToStaticField", "ThreadsBasics\ThreadsAccessToStaticField\ThreadsAccessToStaticField.csproj", "{B02E85C0-7FD7-48A8-9887-C15B3E33C641}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadAbort", "ThreadAbort\ThreadAbort.csproj", "{36D95E2F-6947-4CE3-B07D-A9087A6B0D7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsAbort", "ThreadsBasics\ThreadsAbort\ThreadsAbort.csproj", "{36D95E2F-6947-4CE3-B07D-A9087A6B0D7A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadBackgroundForeground", "ThreadBackgroundForeground\ThreadBackgroundForeground.csproj", "{9C8546B4-B0CD-483B-90E9-9E58A29A90BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsBackgroundForeground", "ThreadsBasics\ThreadsBackgroundForeground\ThreadsBackgroundForeground.csproj", "{9C8546B4-B0CD-483B-90E9-9E58A29A90BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPriority", "ThreadPriority\ThreadPriority.csproj", "{8741C09A-B1B3-41DA-BDAB-8DA0518DB5BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsPriority", "ThreadsBasics\ThreadsPriority\ThreadsPriority.csproj", "{8741C09A-B1B3-41DA-BDAB-8DA0518DB5BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPriority2", "ThreadPriority2\ThreadPriority2.csproj", "{40C82011-F78F-445A-98C1-29D1E5FDE3CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsPriority2", "ThreadsBasics\ThreadsPriority2\ThreadsPriority2.csproj", "{40C82011-F78F-445A-98C1-29D1E5FDE3CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsPriorityFibonachi", "ThreadsBasics\ThreadsPriorityFibonachi\ThreadsPriorityFibonachi.csproj", "{9AAD643A-5F2F-4459-A16A-D49D6279452D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsInterlocked", "ThreadsBasics\ThreadsInterlocked\ThreadsInterlocked.csproj", "{486BEF46-E7D1-48F3-9AED-5B9054DD32E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsSpinLock", "ThreadsBasics\ThreadsSpinLock\ThreadsSpinLock.csproj", "{48B6225A-6198-4114-B65F-3F89AC63A12B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsMonitor", "ThreadsBasics\ThreadsMonitor\ThreadsMonitor.csproj", "{80942F8A-6338-4C8D-94C2-1432E6FDCCD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsMonitor2", "ThreadsBasics\ThreadsMonitor2\ThreadsMonitor2.csproj", "{06A919EC-2DCF-44A9-9FE0-EAF3318EACB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsMonitor3", "ThreadsBasics\ThreadsMonitor3\ThreadsMonitor3.csproj", "{2E435BB3-5A24-4DB0-98BD-035D0AE596ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThreadsBasics", "ThreadsBasics", "{19EAC217-737F-4A5C-A6DB-12E12E9CD823}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,9 +65,48 @@ Global
 		{40C82011-F78F-445A-98C1-29D1E5FDE3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C82011-F78F-445A-98C1-29D1E5FDE3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C82011-F78F-445A-98C1-29D1E5FDE3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AAD643A-5F2F-4459-A16A-D49D6279452D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAD643A-5F2F-4459-A16A-D49D6279452D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAD643A-5F2F-4459-A16A-D49D6279452D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAD643A-5F2F-4459-A16A-D49D6279452D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486BEF46-E7D1-48F3-9AED-5B9054DD32E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486BEF46-E7D1-48F3-9AED-5B9054DD32E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486BEF46-E7D1-48F3-9AED-5B9054DD32E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486BEF46-E7D1-48F3-9AED-5B9054DD32E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B6225A-6198-4114-B65F-3F89AC63A12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B6225A-6198-4114-B65F-3F89AC63A12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B6225A-6198-4114-B65F-3F89AC63A12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B6225A-6198-4114-B65F-3F89AC63A12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80942F8A-6338-4C8D-94C2-1432E6FDCCD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80942F8A-6338-4C8D-94C2-1432E6FDCCD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80942F8A-6338-4C8D-94C2-1432E6FDCCD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80942F8A-6338-4C8D-94C2-1432E6FDCCD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A919EC-2DCF-44A9-9FE0-EAF3318EACB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A919EC-2DCF-44A9-9FE0-EAF3318EACB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A919EC-2DCF-44A9-9FE0-EAF3318EACB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A919EC-2DCF-44A9-9FE0-EAF3318EACB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E435BB3-5A24-4DB0-98BD-035D0AE596ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E435BB3-5A24-4DB0-98BD-035D0AE596ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E435BB3-5A24-4DB0-98BD-035D0AE596ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E435BB3-5A24-4DB0-98BD-035D0AE596ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB8E48DF-26FA-46AF-926B-10449F5EBB55} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
+		{57DEEE7E-FDE5-4361-AFA4-D3422CA48044} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
+		{B02E85C0-7FD7-48A8-9887-C15B3E33C641} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
+		{36D95E2F-6947-4CE3-B07D-A9087A6B0D7A} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
+		{9C8546B4-B0CD-483B-90E9-9E58A29A90BC} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
+		{8741C09A-B1B3-41DA-BDAB-8DA0518DB5BF} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
+		{40C82011-F78F-445A-98C1-29D1E5FDE3CE} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
+		{9AAD643A-5F2F-4459-A16A-D49D6279452D} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
+		{486BEF46-E7D1-48F3-9AED-5B9054DD32E2} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
+		{48B6225A-6198-4114-B65F-3F89AC63A12B} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
+		{80942F8A-6338-4C8D-94C2-1432E6FDCCD9} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
+		{06A919EC-2DCF-44A9-9FE0-EAF3318EACB6} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
+		{2E435BB3-5A24-4DB0-98BD-035D0AE596ED} = {19EAC217-737F-4A5C-A6DB-12E12E9CD823}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {867B1F0B-B42B-49AE-AA7A-E00C8B19B8F2}
