@@ -5,7 +5,7 @@ namespace ThreadsVolatile
 {
     internal class Program
     {
-        private static volatile byte _stop;
+        private static volatile bool _stop;
 
         static void Main(string[] args)
         {
@@ -14,7 +14,7 @@ namespace ThreadsVolatile
 
             Thread.Sleep(2000);
 
-            Thread.VolatileWrite(ref _stop, 1);
+            _stop = true;
             Console.WriteLine($"Main: waiting while the secondary thread will be finished");
             thread.Join();
 
@@ -24,7 +24,7 @@ namespace ThreadsVolatile
         private static void Function()
         {
             int x = 0;
-            while (Thread.VolatileRead(ref _stop) != 1)
+            while (!_stop)
             {
                 x++;
             }

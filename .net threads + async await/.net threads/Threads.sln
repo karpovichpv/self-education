@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThreadsBasics", "ThreadsBas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsVolatile", "ThreadsSync\ThreadsVolatile\ThreadsVolatile.csproj", "{9BEF01FE-E785-4600-89BA-C3AD4AFCED0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsVolatile2", "ThreadsSync\ThreadsVolatile2\ThreadsVolatile2.csproj", "{19E2836F-6C61-4744-91A1-2A8D24FE67DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{9BEF01FE-E785-4600-89BA-C3AD4AFCED0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BEF01FE-E785-4600-89BA-C3AD4AFCED0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BEF01FE-E785-4600-89BA-C3AD4AFCED0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E2836F-6C61-4744-91A1-2A8D24FE67DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E2836F-6C61-4744-91A1-2A8D24FE67DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E2836F-6C61-4744-91A1-2A8D24FE67DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E2836F-6C61-4744-91A1-2A8D24FE67DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
