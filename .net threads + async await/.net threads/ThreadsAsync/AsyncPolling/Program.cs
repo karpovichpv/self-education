@@ -1,0 +1,34 @@
+﻿using System;
+using System.Threading;
+
+namespace AsyncPolling
+{
+    public class Program
+    {
+
+        public static void Main(string[] args)
+        {
+            Func<int, int, int> myDelegate = new Func<int, int, int>(Sum);
+            IAsyncResult asyncResult = myDelegate.BeginInvoke(1, 2, null, null);
+
+            Console.WriteLine("The asyncronous method is started. The main method is beginning its work");
+
+            while (!asyncResult.IsCompleted)
+            {
+                Thread.Sleep(100);
+                Console.Write(".");
+            }
+
+            int result = myDelegate.EndInvoke(asyncResult);
+            Console.WriteLine("Result = " + result);
+
+            Console.ReadKey();
+        }
+
+        private static int Sum(int a, int b)
+        {
+            Thread.Sleep(3000);
+            return a + b;
+        }
+    }
+}
