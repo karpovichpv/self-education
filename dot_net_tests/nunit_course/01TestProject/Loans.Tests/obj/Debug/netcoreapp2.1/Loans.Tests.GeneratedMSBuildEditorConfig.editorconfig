@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Loans.Tests
+build_property.ProjectDir = C:\other\SelfEducation\dot_net_tests\nunit_course\01TestProject\Loans.Tests\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
