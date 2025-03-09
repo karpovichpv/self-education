@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@thatopen/components": "^2.4.4",
+    "@thatopen/ui": "^2.4.2",
+    "stats.js": "^0.17.0",
+    "web-ifc-viewer": "^1.0.218"
+  }
+}

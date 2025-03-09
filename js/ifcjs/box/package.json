@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@thatopen/components": "^2.4.4",
+    "@thatopen/ui": "^2.4.2",
+    "stats-js": "^1.0.1",
+    "stats.js": "^0.17.0",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "vite": "^6.2.1"
+  }
+}
