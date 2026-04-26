@@ -15,7 +15,6 @@ const a = prompt('Write some of last films?', ''),
 personalMovieDb.movies[a] = b
 personalMovieDb.movies[c] = d
 
-
 console.log(personalMovieDb)
 
 
