@@ -20,8 +20,8 @@ const personalMovieDb = {
 
 function rememberMyFilms() {
     for (let i = 0; i < numberOfFilms; i++) {
-        const a = prompt('Write some of last films?', '');
-        const b = prompt('How is it?', '');
+        const a = prompt('Write some of last films?', '').trim();
+        const b = prompt('How is it?', '').trim();
         if (a != null && b != null && a != '' && b != '' && a.length < 50) {
             personalMovieDb.movies[a] = b;
             console.log('done');
