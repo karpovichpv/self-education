@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "aWAtgd4R0m16aJLnSVitBnfP01Z9kIw3+7WUd4RYnqle7tNi/kE+XMq7SQSMDoE9z/bGqur46p80cMARxUrDAg==",
+  "dgSpecHash": "m6JvSyyH8wk=",
   "success": true,
-  "projectFilePath": "D:\\Self-education\\dot net cryptography\\demos\\HybridWithIntegrityGCM\\HybridWithIntegrityGCM.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\other\\SelfEducation\\dot net cryptography\\demos\\HybridWithIntegrityGCM\\HybridWithIntegrityGCM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

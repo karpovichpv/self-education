@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DG8/A2I+DwgvHjH7A5++JfcajiqgLksBMVAZWmFG1Af5RQ5ehucPLiW34qduhv8BtyTyjed02B4GUgNciriKkA==",
+  "dgSpecHash": "b5Opvt8LWeU=",
   "success": true,
-  "projectFilePath": "D:\\Self-education\\dot net cryptography\\demos\\DigitalSignature\\DigitalSignature.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\other\\SelfEducation\\dot net cryptography\\demos\\DigitalSignature\\DigitalSignature.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

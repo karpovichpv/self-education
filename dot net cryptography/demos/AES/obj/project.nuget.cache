@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5N2alMHpl4ke2bzrZBrxOHzcCQ0I0o9hVGyPjrdB8JjLhMtfTNJkW+CB1vwSJuuVfrGIrxfGi4oOcteSjEXWbA==",
+  "dgSpecHash": "nZAud0e9EUc=",
   "success": true,
-  "projectFilePath": "D:\\Self-education\\dot net cryptography\\demos\\AES\\AES.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\other\\SelfEducation\\dot net cryptography\\demos\\AES\\AES.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

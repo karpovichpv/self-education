@@ -1,31 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Self-education\\dot net cryptography\\demos\\DES\\DES.csproj": {}
+    "C:\\other\\SelfEducation\\dot net cryptography\\demos\\DES\\DES.csproj": {}
   },
   "projects": {
-    "D:\\Self-education\\dot net cryptography\\demos\\DES\\DES.csproj": {
+    "C:\\other\\SelfEducation\\dot net cryptography\\demos\\DES\\DES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Self-education\\dot net cryptography\\demos\\DES\\DES.csproj",
+        "projectUniqueName": "C:\\other\\SelfEducation\\dot net cryptography\\demos\\DES\\DES.csproj",
         "projectName": "DES",
-        "projectPath": "D:\\Self-education\\dot net cryptography\\demos\\DES\\DES.csproj",
+        "projectPath": "C:\\other\\SelfEducation\\dot net cryptography\\demos\\DES\\DES.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Self-education\\dot net cryptography\\demos\\DES\\obj\\",
+        "outputPath": "C:\\other\\SelfEducation\\dot net cryptography\\demos\\DES\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
+            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {}
           }
@@ -34,10 +36,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net6.0": {
+          "framework": "net6.0",
           "targetAlias": "net6.0",
           "imports": [
             "net461",
@@ -50,12 +59,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

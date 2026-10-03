@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uKsKOfqc92Gum5dM2BVXE9QhQv2MF5p96LKkFmyOXHpN7gL5MLAvn37ch/NsA5zQCm2cnjbQOdWoZfZzew5b0A==",
+  "dgSpecHash": "pbJVNxItFMU=",
   "success": true,
-  "projectFilePath": "D:\\Self-education\\dot net cryptography\\demos\\TripleDES\\TripleDES.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\other\\SelfEducation\\dot net cryptography\\demos\\TripleDES\\TripleDES.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

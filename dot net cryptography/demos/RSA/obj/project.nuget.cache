@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+ECbr5CrGaU2g8aTwqYg0brrHZgGAfJW5wc9FU355AkA1M5cRozY4jBcLbVBWgKBc9oNBci0tDw1syEvejAeEQ==",
+  "dgSpecHash": "dVqw6cWJOSo=",
   "success": true,
-  "projectFilePath": "D:\\Self-education\\dot net cryptography\\demos\\RSA\\RSA.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\other\\SelfEducation\\dot net cryptography\\demos\\RSA\\RSA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

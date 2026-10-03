@@ -1,7 +1,7 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    ".NETCoreApp,Version=v2.1": {
+    "netcoreapp2.1": {
       "Microsoft.CodeCoverage/15.9.0": {
         "type": "package",
         "compile": {
@@ -3239,12 +3239,11 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
+      "sha512": "LE/oChpRvkSi3U25u0KnJcI44JeDZ1QJCyN4qFDx2uusEypdqR24w7lKYw21eYe5esuCBuc862wRmpF63Yy1KQ==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6179,7 +6178,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v2.1": [
+    "netcoreapp2.1": [
       "Loans >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -6188,7 +6187,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -6199,19 +6199,21 @@
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\other\\SelfEducation\\dot_net_tests\\nunit_course\\01TestProject\\Loans.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "framework": "netcoreapp2.1",
           "targetAlias": "netcoreapp2.1",
           "projectReferences": {
             "C:\\other\\SelfEducation\\dot_net_tests\\nunit_course\\01TestProject\\Loans\\Loans.csproj": {
@@ -6224,10 +6226,17 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "netcoreapp2.1": {
+        "framework": "netcoreapp2.1",
         "targetAlias": "netcoreapp2.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
@@ -6260,7 +6269,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -6272,7 +6281,7 @@
       "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-2xjx-v99w-gqf3",
       "libraryId": "Microsoft.NETCore.App",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
+        "netcoreapp2.1"
       ]
     },
     {
@@ -6282,7 +6291,7 @@
       "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-3gp9-h8hw-pxpw",
       "libraryId": "Microsoft.NETCore.App",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
+        "netcoreapp2.1"
       ]
     },
     {
@@ -6292,7 +6301,7 @@
       "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-3w5p-jhp5-c29q",
       "libraryId": "Microsoft.NETCore.App",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
+        "netcoreapp2.1"
       ]
     },
     {
@@ -6302,7 +6311,7 @@
       "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5633-f33j-c6f7",
       "libraryId": "Microsoft.NETCore.App",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
+        "netcoreapp2.1"
       ]
     },
     {
@@ -6312,7 +6321,7 @@
       "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-6px8-22w5-w334",
       "libraryId": "Microsoft.NETCore.App",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
+        "netcoreapp2.1"
       ]
     },
     {
@@ -6322,7 +6331,7 @@
       "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-g5vf-38cp-4px9",
       "libraryId": "Microsoft.NETCore.App",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
+        "netcoreapp2.1"
       ]
     },
     {
@@ -6332,7 +6341,7 @@
       "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vgwq-hfqc-58wv",
       "libraryId": "Microsoft.NETCore.App",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
+        "netcoreapp2.1"
       ]
     },
     {
@@ -6342,7 +6351,7 @@
       "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-x5qj-9vmx-7g6g",
       "libraryId": "Microsoft.NETCore.App",
       "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
+        "netcoreapp2.1"
       ]
     }
   ]

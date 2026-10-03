@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3G87CKRJLavo2hv5hNwzd8hI0GtYcUX3ebxzqTq5EJjc/UkPEu8tJL2coGC9O3BxG9ibOmaOmYDtYpSWtDESUQ==",
+  "dgSpecHash": "W2I7tdlwosE=",
   "success": true,
-  "projectFilePath": "D:\\Self-education\\asp.net core\\asp.net core + angular\\DutchTreat\\DutchTreat.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\other\\SelfEducation\\asp.net core\\asp.net core + angular\\DutchTreat\\DutchTreat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
