@@ -76,3 +76,34 @@ class ClickButtonClass1 extends Component {
 createRoot(document.getElementById("app5")).render(
   <ClickButtonClass1></ClickButtonClass1>,
 );
+
+function ClickButtonEvent(props) {
+  function press(e) {
+    console.log(e);
+    console.log("Hello world");
+  }
+
+  return <button onClick={press}>Click Event</button>;
+}
+
+createRoot(document.getElementById("app6")).render(
+  <ClickButtonEvent></ClickButtonEvent>,
+);
+
+class ClickButtonEventClass extends Component {
+  constructor(props) {
+    super(props);
+    this.press = this.press.bind(this);
+  }
+  press(e) {
+    console.log(e);
+    console.log("Hello world from the event class");
+  }
+  render() {
+    return <button onClick={this.press}>Click from event class</button>;
+  }
+}
+
+createRoot(document.getElementById("app7")).render(
+  <ClickButtonEventClass></ClickButtonEventClass>,
+);
