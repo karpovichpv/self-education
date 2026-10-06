@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dom": "^0.0.3",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "reactdom": "^2.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.4.4"
+  },
+  "name": "06_usestate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js"
+}
