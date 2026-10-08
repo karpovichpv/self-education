@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "name": "08_state",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "vite": "^6.4.4"
+  },
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
