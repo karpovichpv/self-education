@@ -58,3 +58,37 @@ class Hello2 extends Component {
 }
 
 createRoot(document.getElementById("app2")).render(<Hello2 />);
+
+class ClickButton extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { counter: 0 };
+    this.press = this.press.bind(this);
+  }
+
+  incrementCounter(prevState, props) {
+    return {
+      counter: prevState.counter + parseInt(props.increment),
+    };
+  }
+
+  press() {
+    this.setState(this.incrementCounter);
+    this.setState(this.incrementCounter);
+  }
+
+  render() {
+    return (
+      <div>
+        <button onClick={this.press}>Count</button>
+        <div>
+          Counter: {this.state.counter} <br /> Increment: {this.props.increment}
+        </div>
+      </div>
+    );
+  }
+}
+
+createRoot(document.getElementById("app3")).render(
+  <ClickButton increment="1"></ClickButton>,
+);
