@@ -6,6 +6,6 @@ export class CalculationModel {
   }
 
   calculate(): number {
-    return 20;
+    return 22;
   }
 }
