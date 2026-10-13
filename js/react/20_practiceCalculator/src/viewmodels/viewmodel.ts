@@ -11,4 +11,8 @@ export class ViewModel {
   getNumber(): number {
     return this.calculatedValue.calculate();
   }
+
+  increment(): number {
+    return this.calculatedValue.increment();
+  }
 }

@@ -10,8 +10,9 @@ interface CalculationViewProps {
 export const CalculatorView: React.FC<CalculationViewProps> = observer(
   ({ viewModel }) => {
     return (
-      <div style={{ padding: "20px", textAlign: "center" }}>
+      <div >
         <h1>Счетчик: {viewModel.getNumber()}</h1>
+        <button onClick ={()=> viewModel.increment()}>Increment</button>
       </div>
     );
   },
