@@ -4,16 +4,16 @@ interface ButtonProps {
   label: string;
   onClick: () => void;
   disabled?: boolean;
-  gridRow?: string;
-  gridColumn?: string;
+  row?: number;
+  column?: number;
 }
 
 export const Button: React.FC<ButtonProps> = ({
   label,
   onClick,
   disabled = false,
-  gridRow = "0",
-  gridColumn = "0",
+  row: gridRow = 1,
+  column: gridColumn = 1,
 }) => {
   return (
     <button
@@ -23,8 +23,8 @@ export const Button: React.FC<ButtonProps> = ({
         padding: "8px 16px",
         cursor: "pointer",
         backgroundColor: "red",
-        gridColumn: gridColumn,
-        gridRow: gridRow,
+        gridColumnStart: gridColumn,
+        gridRowStart: gridRow,
       }}
     >
       {label}

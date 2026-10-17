@@ -79,4 +79,16 @@ export class ViewModel {
   addRightBracket = (): void => {
     this.calculatedString += ")";
   };
+  addEqualSign = (): void => {
+    this.calculatedString += "=";
+  };
+  addEqualDot = (): void => {
+    this.calculatedString += ".";
+  };
+  addPercent = (): void => {
+    this.calculatedString += "%";
+  };
+  addCe = (): void => {
+    this.calculatedString += "CE";
+  };
 }
