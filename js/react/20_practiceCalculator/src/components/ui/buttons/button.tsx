@@ -1,4 +1,5 @@
 import React from "react";
+import { buttonBase } from "./button.styles";
 
 interface ButtonProps {
   label: string;
@@ -6,6 +7,7 @@ interface ButtonProps {
   disabled?: boolean;
   row?: number;
   column?: number;
+  className?: string;
 }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -14,18 +16,14 @@ export const Button: React.FC<ButtonProps> = ({
   disabled = false,
   row: gridRow = 1,
   column: gridColumn = 1,
+  className = "",
 }) => {
   return (
     <button
       onClick={onClick}
       disabled={disabled}
-      style={{
-        padding: "8px 16px",
-        cursor: "pointer",
-        backgroundColor: "red",
-        gridColumnStart: gridColumn,
-        gridRowStart: gridRow,
-      }}
+      className={[buttonBase, className].filter(Boolean).join(" ")}
+      style={{ "--col": gridColumn, "--row": gridRow } as React.CSSProperties}
     >
       {label}
     </button>

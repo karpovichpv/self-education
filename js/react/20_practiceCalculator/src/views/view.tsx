@@ -13,7 +13,7 @@ export const CalculatorView: React.FC<CalculationViewProps> = observer(
     return (
       <>
         <div>
-          <h1>Счетчик: {viewModel.getCalculatedString()}</h1>
+          <h1 className="text-3xl font-bold">Счетчик: {viewModel.getCalculatedString()}</h1>
           <div
             style={{
               display: "grid",
@@ -125,6 +125,7 @@ export const CalculatorView: React.FC<CalculationViewProps> = observer(
               row={5}
             />
             <Button
+              className="bg-amber-500 hover:bg-amber-600"
               label="."
               onClick={() => viewModel.addEqualDot()}
               column={2}
