@@ -2,7 +2,7 @@ import { makeAutoObservable } from "mobx";
 import { CalculationModel } from "../models/calculationModel";
 
 export class ViewModel {
-  calculatedValue: CalculationModel = new CalculationModel("");
+  calculatedModel: CalculationModel = new CalculationModel("");
   calculatedString: string = "";
 
   constructor() {
@@ -13,8 +13,16 @@ export class ViewModel {
     return this.calculatedString;
   }
 
-  increment(): number {
-    return this.calculatedValue.increment();
+  calculate(): string {
+    try {
+      const result = this.calculatedModel.calculate(this.calculatedString);
+      console.log(result);
+
+      return result !== null && result !== undefined ? result.toString() : "";
+    } catch (error) {
+      console.error("Ошибка при вычислении", error);
+      return `Ошибка`;
+    }
   }
 
   add1 = (): void => {

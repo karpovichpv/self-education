@@ -13,7 +13,12 @@ export const CalculatorView: React.FC<CalculationViewProps> = observer(
     return (
       <>
         <div>
-          <h1 className="text-3xl font-bold">Счетчик: {viewModel.getCalculatedString()}</h1>
+          <h1 className="text-3xl font-bold">
+            Счетчик: {viewModel.getCalculatedString()}
+          </h1>
+          <h1 className="text-3xl font-bold">
+            Счетчик: {viewModel.calculate()}
+          </h1>
           <div
             style={{
               display: "grid",
