@@ -6,15 +6,17 @@ export const buttonBase = [
   "px-4",
   "py-2",
   "text-lg",
-  "text-red-500",
-  "bg-slate-700",
+  "text-black",
   "transition-colors",
   "duration-300",
   "col-start-(--col)",
   "row-start-(--row)",
   "disabled:cursor-not-allowed",
   "disabled:opacity-40",
-].join(" ");
+];
+
+export const buttonNumber = [...buttonBase, "bg-red-700"].join(" ");
+export const buttonOperator = [...buttonBase, "bg-purple-700"].join(" ");
 
 export const buttonVariants = {
   operator: "bg-amber-500 hover:bg-amber-600",

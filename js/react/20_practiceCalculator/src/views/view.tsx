@@ -2,6 +2,7 @@ import React from "react";
 import { observer } from "mobx-react-lite";
 import { ViewModel } from "../viewmodels/viewmodel";
 import { Button } from "../components/ui/buttons/button";
+import { ButtonType } from "../components/ui/buttons/button";
 
 interface CalculationViewProps {
   viewModel: ViewModel;
@@ -88,15 +89,15 @@ export const CalculatorView: React.FC<CalculationViewProps> = observer(
               row={5}
             />
             <Button
-              label="("
+              label=")"
               onClick={() => viewModel.addRightBracket()}
-              column={1}
+              column={2}
               row={1}
             />
             <Button
-              label=")"
+              label="("
               onClick={() => viewModel.addLeftBracket()}
-              column={2}
+              column={1}
               row={1}
             />
             <Button
@@ -130,22 +131,23 @@ export const CalculatorView: React.FC<CalculationViewProps> = observer(
               row={5}
             />
             <Button
-              className="bg-amber-500 hover:bg-amber-600"
+              buttonType={ButtonType.Number}
               label="."
               onClick={() => viewModel.addEqualDot()}
               column={2}
               row={5}
             />
             <Button
-              label="%"
-              onClick={() => viewModel.addPercent()}
-              column={3}
+              label="remove"
+              className=""
+              onClick={() => viewModel.removeLast()}
+              column={4}
               row={1}
             />
             <Button
               label="CE"
               onClick={() => viewModel.addCe()}
-              column={4}
+              column={3}
               row={1}
             />
           </div>

@@ -93,10 +93,14 @@ export class ViewModel {
   addEqualDot = (): void => {
     this.calculatedString += ".";
   };
-  addPercent = (): void => {
-    this.calculatedString += "%";
+  removeLast = (): void => {
+    const handeledString = this.calculatedString.slice(
+      0,
+      this.calculatedString.length - 1,
+    );
+    this.calculatedString = handeledString;
   };
   addCe = (): void => {
-    this.calculatedString += "CE";
+    this.calculatedString = "";
   };
 }

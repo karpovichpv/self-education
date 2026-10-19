@@ -1,5 +1,11 @@
 import React from "react";
-import { buttonBase } from "./button.styles";
+import { buttonNumber, buttonOperator } from "./button.styles";
+
+export enum ButtonType {
+  Number,
+  Operator,
+  Manage,
+}
 
 interface ButtonProps {
   label: string;
@@ -8,6 +14,7 @@ interface ButtonProps {
   row?: number;
   column?: number;
   className?: string;
+  buttonType?: ButtonType;
 }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -17,12 +24,16 @@ export const Button: React.FC<ButtonProps> = ({
   row: gridRow = 1,
   column: gridColumn = 1,
   className = "",
+  buttonType = ButtonType.Manage,
 }) => {
+  let appliedClassName = buttonNumber;
+  if (buttonType === ButtonType.Manage) appliedClassName = buttonOperator;
+
   return (
     <button
       onClick={onClick}
       disabled={disabled}
-      className={[buttonBase, className].filter(Boolean).join(" ")}
+      className={[appliedClassName, className].filter(Boolean).join(" ")}
       style={{ "--col": gridColumn, "--row": gridRow } as React.CSSProperties}
     >
       {label}
