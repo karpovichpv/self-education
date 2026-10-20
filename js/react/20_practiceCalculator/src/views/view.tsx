@@ -30,108 +30,125 @@ export const CalculatorView: React.FC<CalculationViewProps> = observer(
           >
             <Button
               label="1"
+              buttonType={ButtonType.Number}
               onClick={() => viewModel.add1()}
               column={1}
               row={4}
             />
             <Button
               label="2"
+              buttonType={ButtonType.Number}
               onClick={() => viewModel.add2()}
               column={2}
               row={4}
             />
             <Button
               label="3"
+              buttonType={ButtonType.Number}
               onClick={() => viewModel.add3()}
               column={3}
               row={4}
             />
             <Button
               label="4"
+              buttonType={ButtonType.Number}
               onClick={() => viewModel.add4()}
               column={1}
               row={3}
             />
             <Button
               label="5"
+              buttonType={ButtonType.Number}
               onClick={() => viewModel.add5()}
               column={2}
               row={3}
             />
             <Button
               label="6"
+              buttonType={ButtonType.Number}
               onClick={() => viewModel.add6()}
               column={3}
               row={3}
             />
             <Button
               label="7"
+              buttonType={ButtonType.Number}
               onClick={() => viewModel.add7()}
               column={1}
               row={2}
             />
             <Button
               label="8"
+              buttonType={ButtonType.Number}
               onClick={() => viewModel.add8()}
               column={2}
               row={2}
             />
             <Button
               label="9"
+              buttonType={ButtonType.Number}
               onClick={() => viewModel.add9()}
               column={3}
               row={2}
             />
             <Button
               label="0"
+              buttonType={ButtonType.Number}
               onClick={() => viewModel.add0()}
               column={1}
               row={5}
             />
             <Button
               label=")"
+              buttonType={ButtonType.Bracket}
               onClick={() => viewModel.addRightBracket()}
               column={2}
               row={1}
             />
             <Button
               label="("
+              buttonType={ButtonType.Bracket}
               onClick={() => viewModel.addLeftBracket()}
               column={1}
               row={1}
             />
             <Button
               label="/"
+              buttonType={ButtonType.Operator}
               onClick={() => viewModel.addDevide()}
               column={4}
               row={2}
             />
             <Button
               label="*"
+              buttonType={ButtonType.Operator}
               onClick={() => viewModel.addMultiply()}
               column={4}
               row={3}
             />
             <Button
               label="-"
+              buttonType={ButtonType.Operator}
               onClick={() => viewModel.addMinus()}
               column={4}
               row={4}
             />
             <Button
               label="+"
+              buttonType={ButtonType.Operator}
               onClick={() => viewModel.addPlus()}
               column={4}
               row={5}
             />
             <Button
               label="="
+              buttonType={ButtonType.Operator}
               onClick={() => viewModel.addEqualSign()}
               column={3}
               row={5}
             />
             <Button
-              buttonType={ButtonType.Number}
+              buttonType={ButtonType.Operator}
               label="."
               onClick={() => viewModel.addEqualDot()}
               column={2}
@@ -140,12 +157,14 @@ export const CalculatorView: React.FC<CalculationViewProps> = observer(
             <Button
               label="remove"
               className=""
+              buttonType={ButtonType.Manage}
               onClick={() => viewModel.removeLast()}
               column={4}
               row={1}
             />
             <Button
               label="CE"
+              buttonType={ButtonType.Manage}
               onClick={() => viewModel.addCe()}
               column={3}
               row={1}

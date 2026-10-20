@@ -15,8 +15,10 @@ export const buttonBase = [
   "disabled:opacity-40",
 ];
 
-export const buttonNumber = [...buttonBase, "bg-red-700"].join(" ");
-export const buttonOperator = [...buttonBase, "bg-purple-700"].join(" ");
+export const buttonNumber = [...buttonBase, "bg-red-500"].join(" ");
+export const buttonOperator = [...buttonBase, "bg-purple-500"].join(" ");
+export const buttonManage = [...buttonBase, "bg-green-500"].join(" ");
+export const buttonBracket = [...buttonBase, "bg-blue-500"].join(" ");
 
 export const buttonVariants = {
   operator: "bg-amber-500 hover:bg-amber-600",

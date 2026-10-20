@@ -1,10 +1,16 @@
 import React from "react";
-import { buttonNumber, buttonOperator } from "./button.styles";
+import {
+  buttonNumber as buttonNumberStyle,
+  buttonOperator as buttonOperatorStyle,
+  buttonManage as buttonManageStyle,
+  buttonBracket as buttonBracketStyle,
+} from "./button.styles";
 
 export enum ButtonType {
   Number,
   Operator,
   Manage,
+  Bracket,
 }
 
 interface ButtonProps {
@@ -26,8 +32,12 @@ export const Button: React.FC<ButtonProps> = ({
   className = "",
   buttonType = ButtonType.Manage,
 }) => {
-  let appliedClassName = buttonNumber;
-  if (buttonType === ButtonType.Manage) appliedClassName = buttonOperator;
+  let appliedClassName = buttonNumberStyle;
+  if (buttonType === ButtonType.Manage) appliedClassName = buttonManageStyle;
+  if (buttonType === ButtonType.Number) appliedClassName = buttonNumberStyle;
+  if (buttonType === ButtonType.Operator)
+    appliedClassName = buttonOperatorStyle;
+  if (buttonType === ButtonType.Bracket) appliedClassName = buttonBracketStyle;
 
   return (
     <button
