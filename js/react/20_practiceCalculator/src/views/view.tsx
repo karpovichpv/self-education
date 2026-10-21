@@ -15,10 +15,10 @@ export const CalculatorView: React.FC<CalculationViewProps> = observer(
       <>
         <div>
           <h1 className="text-3xl font-bold">
-            Счетчик: {viewModel.getCalculatedString()}
+            Выражение: {viewModel.getCalculatedString()}
           </h1>
           <h1 className="text-3xl font-bold">
-            Счетчик: {viewModel.calculate()}
+            Результат: {viewModel.calculate()}
           </h1>
           <div
             style={{
@@ -31,126 +31,126 @@ export const CalculatorView: React.FC<CalculationViewProps> = observer(
             <Button
               label="1"
               buttonType={ButtonType.Number}
-              onClick={() => viewModel.add1()}
+              onClick={() => viewModel.addChar("1")}
               column={1}
               row={4}
             />
             <Button
               label="2"
               buttonType={ButtonType.Number}
-              onClick={() => viewModel.add2()}
+              onClick={() => viewModel.addChar("2")}
               column={2}
               row={4}
             />
             <Button
               label="3"
               buttonType={ButtonType.Number}
-              onClick={() => viewModel.add3()}
+              onClick={() => viewModel.addChar("3")}
               column={3}
               row={4}
             />
             <Button
               label="4"
               buttonType={ButtonType.Number}
-              onClick={() => viewModel.add4()}
+              onClick={() => viewModel.addChar("4")}
               column={1}
               row={3}
             />
             <Button
               label="5"
               buttonType={ButtonType.Number}
-              onClick={() => viewModel.add5()}
+              onClick={() => viewModel.addChar("5")}
               column={2}
               row={3}
             />
             <Button
               label="6"
               buttonType={ButtonType.Number}
-              onClick={() => viewModel.add6()}
+              onClick={() => viewModel.addChar("6")}
               column={3}
               row={3}
             />
             <Button
               label="7"
               buttonType={ButtonType.Number}
-              onClick={() => viewModel.add7()}
+              onClick={() => viewModel.addChar("7")}
               column={1}
               row={2}
             />
             <Button
               label="8"
               buttonType={ButtonType.Number}
-              onClick={() => viewModel.add8()}
+              onClick={() => viewModel.addChar("8")}
               column={2}
               row={2}
             />
             <Button
               label="9"
               buttonType={ButtonType.Number}
-              onClick={() => viewModel.add9()}
+              onClick={() => viewModel.addChar("9")}
               column={3}
               row={2}
             />
             <Button
               label="0"
               buttonType={ButtonType.Number}
-              onClick={() => viewModel.add0()}
+              onClick={() => viewModel.addChar("0")}
               column={1}
               row={5}
             />
             <Button
               label=")"
               buttonType={ButtonType.Bracket}
-              onClick={() => viewModel.addRightBracket()}
+              onClick={() => viewModel.addChar(")")}
               column={2}
               row={1}
             />
             <Button
               label="("
               buttonType={ButtonType.Bracket}
-              onClick={() => viewModel.addLeftBracket()}
+              onClick={() => viewModel.addChar("(")}
               column={1}
               row={1}
             />
             <Button
               label="/"
               buttonType={ButtonType.Operator}
-              onClick={() => viewModel.addDevide()}
+              onClick={() => viewModel.addChar("/")}
               column={4}
               row={2}
             />
             <Button
               label="*"
               buttonType={ButtonType.Operator}
-              onClick={() => viewModel.addMultiply()}
+              onClick={() => viewModel.addChar("*")}
               column={4}
               row={3}
             />
             <Button
               label="-"
               buttonType={ButtonType.Operator}
-              onClick={() => viewModel.addMinus()}
+              onClick={() => viewModel.addChar("-")}
               column={4}
               row={4}
             />
             <Button
               label="+"
               buttonType={ButtonType.Operator}
-              onClick={() => viewModel.addPlus()}
+              onClick={() => viewModel.addChar("+")}
               column={4}
               row={5}
             />
             <Button
               label="="
               buttonType={ButtonType.Operator}
-              onClick={() => viewModel.addEqualSign()}
+              onClick={() => viewModel.addChar("=")}
               column={3}
               row={5}
             />
             <Button
               buttonType={ButtonType.Operator}
               label="."
-              onClick={() => viewModel.addEqualDot()}
+              onClick={() => viewModel.addChar(".")}
               column={2}
               row={5}
             />
