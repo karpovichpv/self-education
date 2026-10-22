@@ -3,6 +3,7 @@ import { observer } from "mobx-react-lite";
 import { ViewModel } from "../viewmodels/viewmodel";
 import { Button } from "../components/ui/buttons/button";
 import { ButtonType } from "../components/ui/buttons/button";
+import { column } from "mathjs";
 
 interface CalculationViewProps {
   viewModel: ViewModel;
@@ -15,11 +16,9 @@ export const CalculatorView: React.FC<CalculationViewProps> = observer(
       <>
         <div>
           <h1 className="text-3xl font-bold">
-            Выражение: {viewModel.getCalculatedString()}
+            Выражение: {viewModel.calculatedString}
           </h1>
-          <h1 className="text-3xl font-bold">
-            Результат: {viewModel.calculate()}
-          </h1>
+          <h1 className="text-3xl font-bold">Результат: {viewModel.result}</h1>
           <div
             style={{
               display: "grid",
@@ -141,13 +140,6 @@ export const CalculatorView: React.FC<CalculationViewProps> = observer(
               row={5}
             />
             <Button
-              label="="
-              buttonType={ButtonType.Operator}
-              onClick={() => viewModel.addChar("=")}
-              column={3}
-              row={5}
-            />
-            <Button
               buttonType={ButtonType.Operator}
               label="."
               onClick={() => viewModel.addChar(".")}
@@ -165,7 +157,7 @@ export const CalculatorView: React.FC<CalculationViewProps> = observer(
             <Button
               label="CE"
               buttonType={ButtonType.Manage}
-              onClick={() => viewModel.addCe()}
+              onClick={() => viewModel.clear()}
               column={3}
               row={1}
             />

@@ -32,7 +32,7 @@ export const Button: React.FC<ButtonProps> = ({
   className = "",
   buttonType = ButtonType.Manage,
 }) => {
-  let appliedClassName = buttonNumberStyle;
+  let appliedClassName;
   if (buttonType === ButtonType.Manage) appliedClassName = buttonManageStyle;
   if (buttonType === ButtonType.Number) appliedClassName = buttonNumberStyle;
   if (buttonType === ButtonType.Operator)

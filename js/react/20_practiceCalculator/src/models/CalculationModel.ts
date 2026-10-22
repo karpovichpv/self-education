@@ -1,27 +1,19 @@
-import { makeAutoObservable } from "mobx";
 import { evaluate } from "mathjs";
 
 export class CalculationModel {
-  inputString: string;
-  defaultNumber: number = 22;
-
-  constructor(inputString: string) {
-    this.inputString = inputString;
-    makeAutoObservable(this);
-  }
-
-  calculate(input: string): number | null {
-    try {
-      const result: number = evaluate(input);
-      return result;
-    } catch (error) {
-      console.log(`Ошибка в математическом выражении`);
-      return null;
+  evaluate(input: string): string {
+    if (input.trim() === "") {
+      return "";
     }
-  }
+    try {
+      const value: unknown = evaluate(input);
+      if (typeof value !== "number" || !Number.isFinite(value)) {
+        return "Ошибка";
+      }
 
-  increment(): number {
-    this.defaultNumber = this.defaultNumber + 1;
-    return this.defaultNumber;
+      return String(Number(value.toPrecision(12)));
+    } catch {
+      return "Ошибка";
+    }
   }
 }

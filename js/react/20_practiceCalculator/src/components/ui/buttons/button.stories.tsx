@@ -1,12 +1,10 @@
-import React from "react";
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Button } from "./button";
-import { buttonBase, buttonVariants } from "./button.styles";
+import { Button, ButtonType } from "./button";
 
 const meta = {
   title: "UI/CalculatorButton",
   component: Button,
-  args: { onClick: () => {} },
+  args: { label: "5", row: 3, column: 2, onClick: () => {} },
   decorators: [
     (Story) => (
       <div
@@ -26,22 +24,51 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Plain: Story = {
-  args: { label: "7", row: 2, column: 1 },
+const NumberKey: Story = {
+  args: { label: "7", buttonType: ButtonType.Number, row: 2, column: 1 },
 };
 
-export const Operator: Story = {
-  args: { label: "+", row: 5, column: 4, className: buttonVariants.operator },
+const OperatorKey: Story = {
+  args: { label: "+", buttonType: ButtonType.Operator, row: 5, column: 4 },
 };
 
-export const Ghost: Story = {
-  args: { label: "CE", row: 1, column: 4, className: buttonVariants.ghost },
+const ManageKey: Story = {
+  args: { label: "CE", buttonType: ButtonType.Manage, row: 1, column: 3 },
+};
+
+const BracketKey: Story = {
+  args: { label: "(", buttonType: ButtonType.Bracket, row: 1, column: 4 },
+};
+
+// `Number` is a JS global, so the local names avoid shadowing it inside this module.
+export {
+  NumberKey as Number,
+  OperatorKey as Operator,
+  ManageKey as Manage,
+  BracketKey as Bracket,
 };
 
 export const Disabled: Story = {
-  args: { label: "0", row: 5, column: 1, disabled: true },
+  args: { label: "0", buttonType: ButtonType.Number, row: 5, column: 1, disabled: true },
 };
 
-export const BaseOnly: Story = {
-  args: { label: "5", row: 3, column: 2, className: buttonBase },
+export const CustomClassName: Story = {
+  args: {
+    label: "9",
+    buttonType: ButtonType.Number,
+    row: 2,
+    column: 3,
+    className: "text-white shadow-md",
+  },
+};
+
+export const AllTypes: Story = {
+  render: (args) => (
+    <>
+      <Button {...args} label="8" buttonType={ButtonType.Number} row={2} column={2} />
+      <Button {...args} label="*" buttonType={ButtonType.Operator} row={3} column={4} />
+      <Button {...args} label="remove" buttonType={ButtonType.Manage} row={1} column={1} />
+      <Button {...args} label=")" buttonType={ButtonType.Bracket} row={1} column={2} />
+    </>
+  ),
 };
