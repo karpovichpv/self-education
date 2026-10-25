@@ -21,4 +21,3 @@ export const buttonNumber = withColor("bg-red-500");
 export const buttonOperator = withColor("bg-purple-500");
 export const buttonManage = withColor("bg-green-500");
 export const buttonBracket = withColor("bg-blue-500");
-export const buttonUnset = withColor("bg-cyan-500");

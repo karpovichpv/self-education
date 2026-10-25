@@ -4,7 +4,13 @@ import { Button, ButtonType } from "./Button";
 const meta = {
   title: "UI/CalculatorButton",
   component: Button,
-  args: { label: "5", row: 3, column: 2, onClick: () => {} },
+  args: {
+    label: "5",
+    buttonType: ButtonType.Digit,
+    row: 3,
+    column: 2,
+    onClick: () => {},
+  },
   decorators: [
     (Story) => (
       <div
@@ -25,7 +31,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 const NumberKey: Story = {
-  args: { label: "7", buttonType: ButtonType.Number, row: 2, column: 1 },
+  args: { label: "7", buttonType: ButtonType.Digit, row: 2, column: 1 },
 };
 
 const OperatorKey: Story = {
@@ -33,7 +39,7 @@ const OperatorKey: Story = {
 };
 
 const ManageKey: Story = {
-  args: { label: "CE", buttonType: ButtonType.Manage, row: 1, column: 3 },
+  args: { label: "CE", buttonType: ButtonType.Action, row: 1, column: 3 },
 };
 
 const BracketKey: Story = {
@@ -51,7 +57,7 @@ export {
 export const Disabled: Story = {
   args: {
     label: "0",
-    buttonType: ButtonType.Number,
+    buttonType: ButtonType.Digit,
     row: 5,
     column: 1,
     disabled: true,
@@ -61,7 +67,7 @@ export const Disabled: Story = {
 export const CustomClassName: Story = {
   args: {
     label: "9",
-    buttonType: ButtonType.Number,
+    buttonType: ButtonType.Digit,
     row: 2,
     column: 3,
     className: "text-white shadow-md",
@@ -74,7 +80,7 @@ export const AllTypes: Story = {
       <Button
         {...args}
         label="8"
-        buttonType={ButtonType.Number}
+        buttonType={ButtonType.Digit}
         row={2}
         column={2}
       />
@@ -88,7 +94,7 @@ export const AllTypes: Story = {
       <Button
         {...args}
         label="remove"
-        buttonType={ButtonType.Manage}
+        buttonType={ButtonType.Action}
         row={1}
         column={1}
       />

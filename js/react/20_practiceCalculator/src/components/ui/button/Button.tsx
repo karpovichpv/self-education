@@ -7,9 +7,9 @@ import {
 } from "./Button.styles";
 
 export enum ButtonType {
-  Number,
+  Digit,
   Operator,
-  Manage,
+  Action,
   Bracket,
 }
 
@@ -24,9 +24,9 @@ interface ButtonProps {
 }
 
 const buttonTypeStyles: Record<ButtonType, string> = {
-  [ButtonType.Number]: buttonNumber,
+  [ButtonType.Digit]: buttonNumber,
   [ButtonType.Operator]: buttonOperator,
-  [ButtonType.Manage]: buttonManage,
+  [ButtonType.Action]: buttonManage,
   [ButtonType.Bracket]: buttonBracket,
 };
 
