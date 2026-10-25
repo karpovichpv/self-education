@@ -1,10 +1,10 @@
-import React from "react";
+import { CSSProperties } from "react";
 import {
-  buttonNumber as buttonNumberStyle,
-  buttonOperator as buttonOperatorStyle,
-  buttonManage as buttonManageStyle,
-  buttonBracket as buttonBracketStyle,
-} from "./button.styles";
+  buttonBracket,
+  buttonManage,
+  buttonNumber,
+  buttonOperator,
+} from "./Button.styles";
 
 export enum ButtonType {
   Number,
@@ -20,31 +20,36 @@ interface ButtonProps {
   row?: number;
   column?: number;
   className?: string;
-  buttonType?: ButtonType;
+  buttonType: ButtonType;
 }
+
+const buttonTypeStyles: Record<ButtonType, string> = {
+  [ButtonType.Number]: buttonNumber,
+  [ButtonType.Operator]: buttonOperator,
+  [ButtonType.Manage]: buttonManage,
+  [ButtonType.Bracket]: buttonBracket,
+};
 
 export const Button: React.FC<ButtonProps> = ({
   label,
   onClick,
+  buttonType,
   disabled = false,
-  row: gridRow = 1,
-  column: gridColumn = 1,
+  row = 1,
+  column = 1,
   className = "",
-  buttonType = ButtonType.Manage,
-}) => {
-  let appliedClassName;
-  if (buttonType === ButtonType.Manage) appliedClassName = buttonManageStyle;
-  if (buttonType === ButtonType.Number) appliedClassName = buttonNumberStyle;
-  if (buttonType === ButtonType.Operator)
-    appliedClassName = buttonOperatorStyle;
-  if (buttonType === ButtonType.Bracket) appliedClassName = buttonBracketStyle;
+}: ButtonProps) => {
+  const gridPosition = { "--col": column, "--row": row } as CSSProperties;
 
   return (
     <button
+      type="button"
       onClick={onClick}
       disabled={disabled}
-      className={[appliedClassName, className].filter(Boolean).join(" ")}
-      style={{ "--col": gridColumn, "--row": gridRow } as React.CSSProperties}
+      className={[buttonTypeStyles[buttonType], className]
+        .filter(Boolean)
+        .join(" ")}
+      style={gridPosition}
     >
       {label}
     </button>

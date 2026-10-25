@@ -1,10 +1,8 @@
-import React from "react";
-import { ViewModel } from "./viewmodels/viewmodel";
-import { CalculatorView } from "./views/view";
+import { ViewModel } from "./Viewmodels/Viewmodel";
+import { CalculatorView } from "./Views/View";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 
-// Инициализируем ViewModel
 const viewModel = new ViewModel();
 
 export default function App() {

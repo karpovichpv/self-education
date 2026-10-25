@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Button, ButtonType } from "./button";
+import { Button, ButtonType } from "./Button";
 
 const meta = {
   title: "UI/CalculatorButton",
@@ -49,7 +49,13 @@ export {
 };
 
 export const Disabled: Story = {
-  args: { label: "0", buttonType: ButtonType.Number, row: 5, column: 1, disabled: true },
+  args: {
+    label: "0",
+    buttonType: ButtonType.Number,
+    row: 5,
+    column: 1,
+    disabled: true,
+  },
 };
 
 export const CustomClassName: Story = {
@@ -65,10 +71,34 @@ export const CustomClassName: Story = {
 export const AllTypes: Story = {
   render: (args) => (
     <>
-      <Button {...args} label="8" buttonType={ButtonType.Number} row={2} column={2} />
-      <Button {...args} label="*" buttonType={ButtonType.Operator} row={3} column={4} />
-      <Button {...args} label="remove" buttonType={ButtonType.Manage} row={1} column={1} />
-      <Button {...args} label=")" buttonType={ButtonType.Bracket} row={1} column={2} />
+      <Button
+        {...args}
+        label="8"
+        buttonType={ButtonType.Number}
+        row={2}
+        column={2}
+      />
+      <Button
+        {...args}
+        label="*"
+        buttonType={ButtonType.Operator}
+        row={3}
+        column={4}
+      />
+      <Button
+        {...args}
+        label="remove"
+        buttonType={ButtonType.Manage}
+        row={1}
+        column={1}
+      />
+      <Button
+        {...args}
+        label=")"
+        buttonType={ButtonType.Bracket}
+        row={1}
+        column={2}
+      />
     </>
   ),
 };

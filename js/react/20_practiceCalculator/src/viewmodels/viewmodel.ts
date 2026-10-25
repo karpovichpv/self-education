@@ -1,5 +1,7 @@
 import { makeAutoObservable } from "mobx";
-import { CalculationModel } from "../models/CalculationModel";
+import { CalculationModel } from "../Models/CalculationModel";
+
+const ERROR_TEXT = "Error";
 
 export class ViewModel {
   calculatedModel: CalculationModel = new CalculationModel();
@@ -10,7 +12,8 @@ export class ViewModel {
   }
 
   get result(): string {
-    return this.calculatedModel.evaluate(this.calculatedString);
+    const evaluation = this.calculatedModel.evaluate(this.calculatedString);
+    return evaluation.ok ? evaluation.display : ERROR_TEXT;
   }
 
   addChar = (input: string): void => {
@@ -26,10 +29,9 @@ export class ViewModel {
   };
 
   equals = (): void => {
-    const value = this.result;
-
-    if (value !== "" && value !== "Ошибка") {
-      this.calculatedString = value;
+    const evaluation = this.calculatedModel.evaluate(this.calculatedString);
+    if (evaluation.ok) {
+      this.calculatedString = evaluation.display;
     }
   };
 }
