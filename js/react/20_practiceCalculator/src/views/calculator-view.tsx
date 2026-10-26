@@ -1,8 +1,7 @@
 import { observer } from "mobx-react-lite";
 import { CSSProperties } from "react";
 import { CalculatorViewModel } from "../view-models/calculator-view-model";
-import { Button } from "../Components/Ui/Button/Button";
-import { ButtonType } from "../Components/Ui/Button/Button";
+import { Button, ButtonType } from "../components/ui/button/Button";
 
 interface CalculatorViewProps {
   viewModel: CalculatorViewModel;
