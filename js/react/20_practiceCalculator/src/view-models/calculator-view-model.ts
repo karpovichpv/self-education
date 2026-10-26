@@ -3,12 +3,12 @@ import { CalculationModel } from "../models/CalculationModel";
 
 const ERROR_TEXT = "Error";
 
-export class ViewModel {
+export class CalculatorViewModel {
   evaluator: CalculationModel = new CalculationModel();
   expression: string = "";
 
   constructor() {
-    makeAutoObservable(this);
+    makeAutoObservable(this, { evaluator: false });
   }
 
   get result(): string {
@@ -16,7 +16,10 @@ export class ViewModel {
     if (evaluation.ok) {
       return evaluation.display;
     }
-    return evaluation.reason === "empty" ? "" : ERROR_TEXT;
+    if (evaluation.reason === "empty" || evaluation.reason === "incomplete") {
+      return "";
+    }
+    return ERROR_TEXT;
   }
 
   appendChar = (input: string): void => {

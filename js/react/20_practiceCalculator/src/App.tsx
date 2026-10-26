@@ -1,10 +1,10 @@
-import { ViewModel } from "./view-models/calculator-view-model";
+import { CalculatorViewModel } from "./view-models/calculator-view-model";
 import { CalculatorView } from "./views/calculator-view";
 
-interface AddProps {
-  viewModel: ViewModel;
+interface AppProps {
+  viewModel: CalculatorViewModel;
 }
 
-export default function App({ viewModel }: AddProps) {
+export default function App({ viewModel }: AppProps) {
   return <CalculatorView viewModel={viewModel} />;
 }

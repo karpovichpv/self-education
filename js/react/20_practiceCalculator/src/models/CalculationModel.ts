@@ -1,8 +1,10 @@
 import { evaluate as mathEvaluate } from "mathjs";
 
+const INCOMPLETE_TAIL = /[+\-*/.(]\s*$/;
+
 export type EvaluationResult =
   | { ok: true; display: string }
-  | { ok: false; reason: "empty" | "invalid" | "not-a-number" };
+  | { ok: false; reason: "empty" | "incomplete" | "invalid" | "not-a-number" };
 
 export class CalculationModel {
   evaluate(input: string): EvaluationResult {
@@ -16,7 +18,9 @@ export class CalculationModel {
       }
       return { ok: true, display: String(Number(value.toPrecision(12))) };
     } catch {
-      return { ok: false, reason: "invalid" };
+      return INCOMPLETE_TAIL.test(input)
+        ? { ok: false, reason: "incomplete" }
+        : { ok: false, reason: "invalid" };
     }
   }
 }

@@ -1,11 +1,11 @@
 import { observer } from "mobx-react-lite";
 import { CSSProperties } from "react";
-import { ViewModel } from "../view-models/calculator-view-model";
-import { Button } from "../components/ui/button/Button";
-import { ButtonType } from "../components/ui/button/Button";
+import { CalculatorViewModel } from "../view-models/calculator-view-model";
+import { Button } from "../Components/Ui/Button/Button";
+import { ButtonType } from "../Components/Ui/Button/Button";
 
-interface CalculationViewProps {
-  viewModel: ViewModel;
+interface CalculatorViewProps {
+  viewModel: CalculatorViewModel;
 }
 
 interface KeypadButton {
@@ -13,15 +13,16 @@ interface KeypadButton {
   buttonType: ButtonType;
   column: number;
   row: number;
-  onPress: (viewModel: ViewModel) => void;
+  onPress: (viewModel: CalculatorViewModel) => void;
 }
 
-const append = (value: string) => (viewModel: ViewModel) =>
+const pressAppend = (value: string) => (viewModel: CalculatorViewModel) =>
   viewModel.appendChar(value);
 
-const clear = (viewModel: ViewModel) => viewModel.pressClear();
+const pressClear = (viewModel: CalculatorViewModel) => viewModel.pressClear();
 
-const removeLast = (viewModel: ViewModel) => viewModel.pressBackspace();
+const pressBackspace = (viewModel: CalculatorViewModel) =>
+  viewModel.pressBackspace();
 
 const keypadStyle: CSSProperties = {
   display: "grid",
@@ -36,56 +37,56 @@ const keys: KeypadButton[] = [
     buttonType: ButtonType.Bracket,
     column: 1,
     row: 1,
-    onPress: append("("),
+    onPress: pressAppend("("),
   },
   {
     label: ")",
     buttonType: ButtonType.Bracket,
     column: 2,
     row: 1,
-    onPress: append(")"),
+    onPress: pressAppend(")"),
   },
   {
     label: "CE",
     buttonType: ButtonType.Action,
     column: 3,
     row: 1,
-    onPress: clear,
+    onPress: pressClear,
   },
   {
     label: "⌫",
     buttonType: ButtonType.Action,
     column: 4,
     row: 1,
-    onPress: removeLast,
+    onPress: pressBackspace,
   },
   {
     label: "7",
     buttonType: ButtonType.Digit,
     column: 1,
     row: 2,
-    onPress: append("7"),
+    onPress: pressAppend("7"),
   },
   {
     label: "8",
     buttonType: ButtonType.Digit,
     column: 2,
     row: 2,
-    onPress: append("8"),
+    onPress: pressAppend("8"),
   },
   {
     label: "9",
     buttonType: ButtonType.Digit,
     column: 3,
     row: 2,
-    onPress: append("9"),
+    onPress: pressAppend("9"),
   },
   {
     label: "/",
     buttonType: ButtonType.Operator,
     column: 4,
     row: 2,
-    onPress: append("/"),
+    onPress: pressAppend("/"),
   },
 
   {
@@ -93,28 +94,28 @@ const keys: KeypadButton[] = [
     buttonType: ButtonType.Digit,
     column: 1,
     row: 3,
-    onPress: append("4"),
+    onPress: pressAppend("4"),
   },
   {
     label: "5",
     buttonType: ButtonType.Digit,
     column: 2,
     row: 3,
-    onPress: append("5"),
+    onPress: pressAppend("5"),
   },
   {
     label: "6",
     buttonType: ButtonType.Digit,
     column: 3,
     row: 3,
-    onPress: append("6"),
+    onPress: pressAppend("6"),
   },
   {
     label: "*",
     buttonType: ButtonType.Operator,
     column: 4,
     row: 3,
-    onPress: append("*"),
+    onPress: pressAppend("*"),
   },
 
   {
@@ -122,28 +123,28 @@ const keys: KeypadButton[] = [
     buttonType: ButtonType.Digit,
     column: 1,
     row: 4,
-    onPress: append("1"),
+    onPress: pressAppend("1"),
   },
   {
     label: "2",
     buttonType: ButtonType.Digit,
     column: 2,
     row: 4,
-    onPress: append("2"),
+    onPress: pressAppend("2"),
   },
   {
     label: "3",
     buttonType: ButtonType.Digit,
     column: 3,
     row: 4,
-    onPress: append("3"),
+    onPress: pressAppend("3"),
   },
   {
     label: "-",
     buttonType: ButtonType.Operator,
     column: 4,
     row: 4,
-    onPress: append("-"),
+    onPress: pressAppend("-"),
   },
 
   {
@@ -151,27 +152,27 @@ const keys: KeypadButton[] = [
     buttonType: ButtonType.Digit,
     column: 1,
     row: 5,
-    onPress: append("0"),
+    onPress: pressAppend("0"),
   },
   {
     label: ".",
     buttonType: ButtonType.Operator,
     column: 2,
     row: 5,
-    onPress: append("."),
+    onPress: pressAppend("."),
   },
   {
     label: "+",
     buttonType: ButtonType.Operator,
     column: 4,
     row: 5,
-    onPress: append("+"),
+    onPress: pressAppend("+"),
   },
 ];
 
 export const CalculatorView = observer(function CalculatorView({
   viewModel,
-}: CalculationViewProps) {
+}: CalculatorViewProps) {
   return (
     <div>
       <p className="text-3xl font-bold">Expression: {viewModel.expression}</p>

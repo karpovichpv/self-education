@@ -46,7 +46,6 @@ const BracketKey: Story = {
   args: { label: "(", buttonType: ButtonType.Bracket, row: 1, column: 4 },
 };
 
-// `Number` is a JS global, so the local names avoid shadowing it inside this module.
 export {
   NumberKey as Number,
   OperatorKey as Operator,
